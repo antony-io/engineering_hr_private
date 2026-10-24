@@ -34,11 +34,11 @@ Pre-filled on 09/10/2026 from the HR sheet (professional experience) with the de
 
 **Responsibility coeff**: role × level (grid validated 13/10/2026).
 
-| Role                                                                                  | Junior | Mid   | Senior |
-| ------------------------------------------------------------------------------------- | ------ | ----- | ------ |
-| **Engineer**: owns deliverables on a subsystem or work package                        | 1.00   | 1.20  | 1.40   |
-| **Architect**: owns the design and technical choices of a domain, sets the interfaces | 1.30   | 1.40  | 1.50   |
-| **Team lead**: manages a team (people, hiring, workload, competences)                 | 1.40   | 1.60  | 1.80   |
+| Role                                                                                                                                              | To Develop | Standard Potential | High Potential |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------ | -------------- |
+| **Engineer**: owns deliverables on a subsystem or work package                                                                                    | 1.00       | 1.20               | 1.40           |
+| **Architect**: owns the design and technical choices of a domain, sets the interfaces                                                             | 1.30       | 1.40               | 1.50           |
+| **Team lead** or **Expert**:<br>- manages a team (people, hiring, workload, competences)<br>- is a technical reference and guidance for the teams | 1.40       | 1.60               | 1.80           |
 find . -name \* -print -exec grep level {}
 Rules:
 - **Combined role** (team lead + architect, team lead + project technical lead): **+0.05**.
