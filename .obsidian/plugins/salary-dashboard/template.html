@@ -235,7 +235,7 @@ const CCOL = {CDI:"--s1", CDD:"--s2", Intern:"--s3"};
 const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 const NS = "http://www.w3.org/2000/svg";
 const obs = path => "obsidian://open?vault=" + encodeURIComponent(VAULT) + "&file=" + encodeURIComponent(path);
-const privPath = d => "00_Private/" + d.folder + "/" + d.note + " (private).md";
+const privPath = d => d.folder + "/" + d.note + " (private).md";
 const personPath = d => "10_Public/" + d.folder + "/" + d.note + ".md";
 const fmtK = v => v == null || isNaN(v) ? "—" : (v/1000).toLocaleString("en-GB",{maximumFractionDigits:1}) + " k€";
 const fmtE = v => v == null ? "—" : Math.round(v).toLocaleString("fr-FR") + " €";

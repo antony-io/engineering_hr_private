@@ -1,16 +1,16 @@
 /* Salary dashboard – private plugin
- * Reads the private HR notes (00_Private/<team>/<name> (private).md),
+ * Reads the private HR notes <team>/<name> (private).md),
  * fills template.html (same folder as this file) and writes
- * 00_Private/Salary dashboard.html (+ Salary.md), then opens it in the browser.
+ * Salary dashboard.html (+ Salary.md), then opens it in the browser.
  * Command: "Generate salary dashboard" · ribbon icon · ```salary-dashboard``` code block (button + cost indicator).
  */
 const { Plugin, Notice, TFile } = require("obsidian");
 
 // ---- paths (edit here if you move the folders)
-const HR_DIR = "00_Private";
-const PEOPLE_DIR = "10_Public";
-const OUT = "00_Private/Salary dashboard.html";
-const OUT_MD = "00_Private/Salary.md";
+const HR_DIR = "";
+const PEOPLE_DIR = "engineering_hr_public/10_Persons";
+const OUT = "Salary dashboard.html";
+const OUT_MD = "Salary.md";
 // optional display names per team folder; otherwise derived from the folder name ("02_Team_Alpha" -> "Team Alpha")
 const TEAM = {
   "01_Satellite architecture": "Satellite architecture", "02_SE_Modeling_and_Simulation": "SE Modeling & Simulation",
@@ -54,13 +54,13 @@ module.exports = class SalaryDashboard extends Plugin {
 
   collect() {
     this._files = new Map();
-    const files = this.app.vault.getMarkdownFiles().filter(f => f.path.startsWith(HR_DIR + "/") && f.basename.endsWith(" (private)"));
+    const files = this.app.vault.getMarkdownFiles().filter(f => (!HR_DIR || f.path.startsWith(HR_DIR + "/")) && f.basename.endsWith(" (private)"));
     const out = [];
     for (const f of files) {
       const fm = this.fm(f);
       if (fm.type !== "private-hr") continue;
       const note = f.basename.replace(/ \(private\)$/, "");
-      const folder = f.parent && f.parent.path !== HR_DIR ? f.parent.name : "";
+      const folder = f.parent && f.parent.path !== (HR_DIR || "/") ? f.parent.name : "";
       // contract, status, role and start date come from the public person note
       const pf = this.app.vault.getAbstractFileByPath(`${PEOPLE_DIR}/${folder}/${note}.md`);
       const pub = pf instanceof TFile ? this.fm(pf) : {};
@@ -158,7 +158,7 @@ module.exports = class SalaryDashboard extends Plugin {
   async generate(open) {
     try {
       const data = this.collect();
-      if (!data.length) { new Notice("Salary dashboard: no private HR note found in " + HR_DIR); return; }
+      if (!data.length) { new Notice("Salary dashboard: no private HR note found in " + (HR_DIR || "vault root")); return; }
       const tpl = await this.app.vault.adapter.read(`${this.manifest.dir}/template.html`);
       const now = new Date(), gen = `${pad(now.getDate())}/${pad(now.getMonth() + 1)}/${now.getFullYear()} ${pad(now.getHours())}:${pad(now.getMinutes())}`;
       const html = tpl.replace("__DATA__", () => JSON.stringify(data)).replace("__GEN__", () => gen);
