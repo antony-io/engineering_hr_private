@@ -16,6 +16,7 @@
         "08_Electrical_Power_RF",
         "09_Robotics_Mechanisms",
         "00_Index.md",
+        "Org chart.canvas",
         "Private HR.base",
         "Salary.md",
         "Salary dashboard.html"
@@ -25,30 +26,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1792673778847,
-      "mtime": 1792673778847
-    },
-    "01_Satellite architecture": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "MISDARIIS Antony (private).md",
-        "GENDRE David (private).md",
-        "00_Index.md",
-        "MAILLET Geoffrey (private).md"
-      ]
-    },
-    "01_Satellite architecture/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673778847,
-      "mtime": 1792673778847
-    },
-    "01_Satellite architecture/MAILLET Geoffrey (private).md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673778847,
-      "mtime": 1792673778847
+      "mtime": 1792846438229
     },
     "03_System_Engineering_Design": {
       "isPinned": false,
@@ -587,1155 +565,11 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "_Templates",
-        "10_Public",
+        "README.md",
+        "10_Persons",
         "20_Positions",
-        "README.md"
+        "_Templates"
       ]
-    },
-    "engineering_hr_public/10_Public": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "01_Satellite architecture",
-        "02_SE_Modeling_and_Simulation",
-        "03_System_Engineering_Design",
-        "04_E2E_V&V",
-        "05_Propulsion",
-        "06_Structure_Architecture",
-        "07_Mech_Thermal_CoC",
-        "08_Electrical_Power_RF",
-        "09_Robotics_Mechanisms",
-        "00_Index.md",
-        "Org chart.canvas",
-        "People.base"
-      ]
-    },
-    "engineering_hr_public/10_Public/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699846,
-      "mtime": 1792673699846
-    },
-    "engineering_hr_public/10_Public/02_SE_Modeling_and_Simulation": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "ANAND Karan.md",
-        "BARATAUD Paul.md",
-        "GOLLAPALLI Chandra Uday.md",
-        "RAJ Brynel.md",
-        "TBH - Consultant SE Modeling.md",
-        "TBH - Mission Systems Engineer.md",
-        "TBH - Multi-Physics Engineer.md"
-      ]
-    },
-    "engineering_hr_public/10_Public/02_SE_Modeling_and_Simulation/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699847,
-      "mtime": 1792673699847
-    },
-    "engineering_hr_public/10_Public/02_SE_Modeling_and_Simulation/ANAND Karan.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699847,
-      "mtime": 1792673699847
-    },
-    "engineering_hr_public/10_Public/02_SE_Modeling_and_Simulation/BARATAUD Paul.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699847,
-      "mtime": 1792673699847
-    },
-    "engineering_hr_public/10_Public/02_SE_Modeling_and_Simulation/GOLLAPALLI Chandra Uday.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699847,
-      "mtime": 1792673699847
-    },
-    "engineering_hr_public/10_Public/02_SE_Modeling_and_Simulation/RAJ Brynel.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699847,
-      "mtime": 1792673699847
-    },
-    "engineering_hr_public/10_Public/02_SE_Modeling_and_Simulation/TBH - Consultant SE Modeling.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699847,
-      "mtime": 1792673699847
-    },
-    "engineering_hr_public/10_Public/02_SE_Modeling_and_Simulation/TBH - Mission Systems Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699847,
-      "mtime": 1792673699847
-    },
-    "engineering_hr_public/10_Public/02_SE_Modeling_and_Simulation/TBH - Multi-Physics Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699847,
-      "mtime": 1792673699847
-    },
-    "engineering_hr_public/10_Public/03_System_Engineering_Design": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "ADRAO Naseim.md",
-        "BUCCIANTINI Luca.md",
-        "CAVEZZA Francesco.md",
-        "DE MARISCAL SALAVERRIA Javier.md",
-        "GUIRAUD Vincent.md",
-        "TBH - Consultant SE Design.md",
-        "TBH - Space Systems Engineer.md",
-        "TBH - Systems Engineer.md"
-      ]
-    },
-    "engineering_hr_public/10_Public/03_System_Engineering_Design/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699847,
-      "mtime": 1792673699847
-    },
-    "engineering_hr_public/10_Public/03_System_Engineering_Design/ADRAO Naseim.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699847,
-      "mtime": 1792673699847
-    },
-    "engineering_hr_public/10_Public/03_System_Engineering_Design/BUCCIANTINI Luca.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699847,
-      "mtime": 1792673699847
-    },
-    "engineering_hr_public/10_Public/03_System_Engineering_Design/CAVEZZA Francesco.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699847,
-      "mtime": 1792673699847
-    },
-    "engineering_hr_public/10_Public/03_System_Engineering_Design/DE MARISCAL SALAVERRIA Javier.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699847,
-      "mtime": 1792673699847
-    },
-    "engineering_hr_public/10_Public/03_System_Engineering_Design/GUIRAUD Vincent.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699848,
-      "mtime": 1792673699848
-    },
-    "engineering_hr_public/10_Public/03_System_Engineering_Design/TBH - Consultant SE Design.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699848,
-      "mtime": 1792673699848
-    },
-    "engineering_hr_public/10_Public/03_System_Engineering_Design/TBH - Space Systems Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699848,
-      "mtime": 1792673699848
-    },
-    "engineering_hr_public/10_Public/03_System_Engineering_Design/TBH - Systems Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699848,
-      "mtime": 1792673699848
-    },
-    "engineering_hr_public/10_Public/04_E2E_V&V": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "A. Jean-Luc.md",
-        "SANGHVI Nishita.md",
-        "TBH - Consultant V&V 1.md",
-        "TBH - Consultant V&V 2.md",
-        "TBH - V&V Systems Engineer.md",
-        "THAUVIN Emmanuelle.md"
-      ]
-    },
-    "engineering_hr_public/10_Public/04_E2E_V&V/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699848,
-      "mtime": 1792673699848
-    },
-    "engineering_hr_public/10_Public/04_E2E_V&V/A. Jean-Luc.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699848,
-      "mtime": 1792673699848
-    },
-    "engineering_hr_public/10_Public/04_E2E_V&V/SANGHVI Nishita.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699848,
-      "mtime": 1792673699848
-    },
-    "engineering_hr_public/10_Public/04_E2E_V&V/TBH - Consultant V&V 1.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699848,
-      "mtime": 1792673699848
-    },
-    "engineering_hr_public/10_Public/04_E2E_V&V/TBH - V&V Systems Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699848,
-      "mtime": 1792673699848
-    },
-    "engineering_hr_public/10_Public/04_E2E_V&V/THAUVIN Emmanuelle.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699848,
-      "mtime": 1792673699848
-    },
-    "engineering_hr_public/10_Public/04_E2E_V&V/TBH - Consultant V&V 2.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699848,
-      "mtime": 1792673699848
-    },
-    "engineering_hr_public/10_Public/05_Propulsion": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "BOYE Célian.md",
-        "LOPEZ Pablo.md",
-        "MADHUSUDHANA Vageesha.md",
-        "NAYAK Amit.md"
-      ]
-    },
-    "engineering_hr_public/10_Public/05_Propulsion/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699848,
-      "mtime": 1792673699848
-    },
-    "engineering_hr_public/10_Public/05_Propulsion/BOYE Célian.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699848,
-      "mtime": 1792673699848
-    },
-    "engineering_hr_public/10_Public/05_Propulsion/LOPEZ Pablo.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/05_Propulsion/MADHUSUDHANA Vageesha.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/05_Propulsion/NAYAK Amit.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/06_Structure_Architecture": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "AHMED Fatima.md",
-        "BONTEMPS William.md",
-        "DE RIBET Clement.md",
-        "DODEL Jean.md",
-        "GACOIN Florian.md",
-        "MONAMY Virgil.md",
-        "PROUET Victor.md",
-        "T. Ian.md",
-        "TBH - Thermal Architect (Virgile).md",
-        "VIENNE Justine.md"
-      ]
-    },
-    "engineering_hr_public/10_Public/06_Structure_Architecture/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/06_Structure_Architecture/AHMED Fatima.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/06_Structure_Architecture/BONTEMPS William.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/06_Structure_Architecture/DODEL Jean.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/06_Structure_Architecture/DE RIBET Clement.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/06_Structure_Architecture/GACOIN Florian.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/06_Structure_Architecture/MONAMY Virgil.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/06_Structure_Architecture/PROUET Victor.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/06_Structure_Architecture/T. Ian.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/06_Structure_Architecture/TBH - Thermal Architect (Virgile).md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/06_Structure_Architecture/VIENNE Justine.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/07_Mech_Thermal_CoC": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "ARNOUD Axel.md",
-        "BETTOLO Matthieu.md",
-        "DEGUDE Guillaume.md",
-        "DUBRAY Vincent.md",
-        "E. Damien.md",
-        "FERNANDES LEITAO Joao.md",
-        "Morad.md",
-        "PARTHASARATHY VENKATAKRISHNAN Pranav.md",
-        "RAMACHANDRARAO-KRISHNAMURTHY Hari.md",
-        "TBH - Design Engineer x2.md",
-        "TBH - Mech & Thermal CoC Team Lead.md",
-        "WURZINGER Samuel.md"
-      ]
-    },
-    "engineering_hr_public/10_Public/07_Mech_Thermal_CoC/ARNOUD Axel.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/07_Mech_Thermal_CoC/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/07_Mech_Thermal_CoC/BETTOLO Matthieu.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/07_Mech_Thermal_CoC/DEGUDE Guillaume.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/07_Mech_Thermal_CoC/DUBRAY Vincent.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/07_Mech_Thermal_CoC/E. Damien.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699849,
-      "mtime": 1792673699849
-    },
-    "engineering_hr_public/10_Public/07_Mech_Thermal_CoC/FERNANDES LEITAO Joao.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/07_Mech_Thermal_CoC/Morad.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/07_Mech_Thermal_CoC/PARTHASARATHY VENKATAKRISHNAN Pranav.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/07_Mech_Thermal_CoC/RAMACHANDRARAO-KRISHNAMURTHY Hari.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/07_Mech_Thermal_CoC/TBH - Design Engineer x2.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/07_Mech_Thermal_CoC/TBH - Mech & Thermal CoC Team Lead.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/07_Mech_Thermal_CoC/WURZINGER Samuel.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "C. Tiberiu.md",
-        "CHAVES Gabriel.md",
-        "FATHALLAH Wassim.md",
-        "GERARD Jonas - replaced by Jessica.md",
-        "GOSSIN Antonin.md",
-        "H. Aurelien.md",
-        "H. Pedro.md",
-        "KOZLOWSKI Frederic.md",
-        "MADALA Vimala.md",
-        "P. Alexandre.md",
-        "PEREZ SORIANO Tatiana.md",
-        "PINKERTON Robert.md",
-        "RAD IOAN Octavian.md",
-        "SAKA Siddhant.md",
-        "SERRANO Federico.md",
-        "TBH - EMC Architect.md",
-        "TBH - Harness Engineer.md",
-        "TBH - Power Engineer.md",
-        "TBH - RF Payload Architect.md",
-        "TBH - Senior Electronics Engineer.md",
-        "TELLARINI Andres.md"
-      ]
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/C. Tiberiu.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/CHAVES Gabriel.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/FATHALLAH Wassim.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/GERARD Jonas - replaced by Jessica.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/GOSSIN Antonin.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/H. Aurelien.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/KOZLOWSKI Frederic.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/H. Pedro.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/P. Alexandre.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/PEREZ SORIANO Tatiana.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/MADALA Vimala.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/PINKERTON Robert.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699850,
-      "mtime": 1792673699850
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/RAD IOAN Octavian.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/SERRANO Federico.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/SAKA Siddhant.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/TBH - EMC Architect.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/TBH - Harness Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/TBH - Power Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/TBH - RF Payload Architect.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/TBH - Senior Electronics Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/08_Electrical_Power_RF/TELLARINI Andres.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/09_Robotics_Mechanisms": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "ANDRE Théo.md",
-        "BISSONNETTE Vincent.md",
-        "HORSHKOV Roman.md",
-        "KOTHAPALLI Tejendhu Mouli.md",
-        "PARMA Diego.md",
-        "SCOTT Lachlan.md",
-        "SUBRAMANI Sushir.md",
-        "TBH - Mechanisms Systems Engineer.md",
-        "TESSIER Alexandre.md",
-        "WAGNER Moritz.md"
-      ]
-    },
-    "engineering_hr_public/10_Public/09_Robotics_Mechanisms/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/09_Robotics_Mechanisms/BISSONNETTE Vincent.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/09_Robotics_Mechanisms/ANDRE Théo.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/09_Robotics_Mechanisms/KOTHAPALLI Tejendhu Mouli.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/09_Robotics_Mechanisms/PARMA Diego.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/09_Robotics_Mechanisms/HORSHKOV Roman.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/09_Robotics_Mechanisms/SCOTT Lachlan.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/09_Robotics_Mechanisms/SUBRAMANI Sushir.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/09_Robotics_Mechanisms/TBH - Mechanisms Systems Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/09_Robotics_Mechanisms/TESSIER Alexandre.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/09_Robotics_Mechanisms/WAGNER Moritz.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/Org chart.canvas": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/People.base": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/10_Public/01_Satellite architecture": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "GENDRE David.md",
-        "MAILLET Geoffrey.md",
-        "MISDARIIS Antony.md"
-      ]
-    },
-    "engineering_hr_public/10_Public/01_Satellite architecture/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699846,
-      "mtime": 1792673699846
-    },
-    "engineering_hr_public/10_Public/01_Satellite architecture/GENDRE David.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699846,
-      "mtime": 1792673699846
-    },
-    "engineering_hr_public/10_Public/01_Satellite architecture/MAILLET Geoffrey.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699846,
-      "mtime": 1792673699846
-    },
-    "engineering_hr_public/10_Public/01_Satellite architecture/MISDARIIS Antony.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699846,
-      "mtime": 1792673699846
-    },
-    "engineering_hr_public/20_Positions": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "01_Satellite architecture",
-        "02_SE_Modeling_and_Simulation",
-        "03_System_Engineering_Design",
-        "04_E2E_V&V",
-        "05_Propulsion",
-        "06_Structure_Architecture",
-        "07_Mech_Thermal_CoC",
-        "08_Electrical_Power_RF",
-        "09_Robotics_Mechanisms",
-        "00_Index.md",
-        "Engineering Roles.canvas",
-        "JD - Project Technical Lead.md",
-        "JD - Team Lead.md",
-        "Positions.base",
-        "Reviews organisation.canvas"
-      ]
-    },
-    "engineering_hr_public/20_Positions/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699851
-    },
-    "engineering_hr_public/20_Positions/01_Satellite architecture": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "JD - Chief System Architect.md",
-        "JD - System Quality Engineer.md"
-      ]
-    },
-    "engineering_hr_public/20_Positions/01_Satellite architecture/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699851,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/01_Satellite architecture/JD - Chief System Architect.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/01_Satellite architecture/JD - System Quality Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/02_SE_Modeling_and_Simulation": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "JD - CONOPS Systems Engineer.md",
-        "JD - Mission Systems Engineer.md",
-        "JD - Multi-Physics Simulation Architect.md",
-        "JD - Multi-Physics Simulation Engineer.md"
-      ]
-    },
-    "engineering_hr_public/20_Positions/02_SE_Modeling_and_Simulation/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/02_SE_Modeling_and_Simulation/JD - CONOPS Systems Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/02_SE_Modeling_and_Simulation/JD - Mission Systems Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/02_SE_Modeling_and_Simulation/JD - Multi-Physics Simulation Architect.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/02_SE_Modeling_and_Simulation/JD - Multi-Physics Simulation Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/03_System_Engineering_Design": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "JD - ITU Simulation Engineer.md",
-        "JD - Systems Engineer.md"
-      ]
-    },
-    "engineering_hr_public/20_Positions/03_System_Engineering_Design/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/03_System_Engineering_Design/JD - ITU Simulation Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/03_System_Engineering_Design/JD - Systems Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/04_E2E_V&V": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "JD - V&V Architect.md",
-        "JD - V&V Systems Engineer.md"
-      ]
-    },
-    "engineering_hr_public/20_Positions/04_E2E_V&V/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/04_E2E_V&V/JD - V&V Architect.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/04_E2E_V&V/JD - V&V Systems Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/05_Propulsion": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "JD - Propulsion Architect.md",
-        "JD - Propulsion Engineer.md"
-      ]
-    },
-    "engineering_hr_public/20_Positions/05_Propulsion/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/05_Propulsion/JD - Propulsion Architect.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/05_Propulsion/JD - Propulsion Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/06_Structure_Architecture": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "JD - Mechanical Architect.md",
-        "JD - Thermal Architect.md"
-      ]
-    },
-    "engineering_hr_public/20_Positions/06_Structure_Architecture/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/06_Structure_Architecture/JD - Mechanical Architect.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/06_Structure_Architecture/JD - Thermal Architect.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699852,
-      "mtime": 1792673699852
-    },
-    "engineering_hr_public/20_Positions/07_Mech_Thermal_CoC": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "JD - Design Engineer.md",
-        "JD - Mechanical Engineer.md",
-        "JD - Thermal Engineer.md"
-      ]
-    },
-    "engineering_hr_public/20_Positions/07_Mech_Thermal_CoC/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/07_Mech_Thermal_CoC/JD - Design Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/07_Mech_Thermal_CoC/JD - Mechanical Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/07_Mech_Thermal_CoC/JD - Thermal Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/08_Electrical_Power_RF": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "JD - Electrical Architect.md",
-        "JD - Electronics Engineer.md",
-        "JD - EMC Architect.md",
-        "JD - Harness Architect.md",
-        "JD - Harness Engineer.md",
-        "JD - Power Architect.md",
-        "JD - Power Engineer.md",
-        "JD - RF Engineer.md",
-        "JD - RF Payload Architect.md",
-        "JD - RF System Architect.md"
-      ]
-    },
-    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - EMC Architect.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - Electrical Architect.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - Electronics Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - Harness Architect.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - Harness Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - Power Architect.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - Power Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - RF Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - RF Payload Architect.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - RF System Architect.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/09_Robotics_Mechanisms": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "00_Index.md",
-        "JD - Future Docking Systems Intern.md",
-        "JD - Mechanisms Engineer.md",
-        "JD - Robotics Architect.md",
-        "JD - Robotics Engineer.md",
-        "JD - Robotics Engineering Intern.md"
-      ]
-    },
-    "engineering_hr_public/20_Positions/09_Robotics_Mechanisms/00_Index.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/09_Robotics_Mechanisms/JD - Future Docking Systems Intern.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699853
-    },
-    "engineering_hr_public/20_Positions/09_Robotics_Mechanisms/JD - Mechanisms Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699853,
-      "mtime": 1792673699854
-    },
-    "engineering_hr_public/20_Positions/09_Robotics_Mechanisms/JD - Robotics Architect.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699854,
-      "mtime": 1792673699854
-    },
-    "engineering_hr_public/20_Positions/09_Robotics_Mechanisms/JD - Robotics Engineer.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699854,
-      "mtime": 1792673699854
-    },
-    "engineering_hr_public/20_Positions/09_Robotics_Mechanisms/JD - Robotics Engineering Intern.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699854,
-      "mtime": 1792673699854
-    },
-    "engineering_hr_public/20_Positions/Engineering Roles.canvas": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699854,
-      "mtime": 1792673699854
-    },
-    "engineering_hr_public/20_Positions/JD - Project Technical Lead.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699854,
-      "mtime": 1792673699854
-    },
-    "engineering_hr_public/20_Positions/JD - Team Lead.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699854,
-      "mtime": 1792673699854
-    },
-    "engineering_hr_public/20_Positions/Positions.base": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699854,
-      "mtime": 1792673699854
-    },
-    "engineering_hr_public/20_Positions/Reviews organisation.canvas": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699854,
-      "mtime": 1792673699854
-    },
-    "engineering_hr_public/README.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792673699854,
-      "mtime": 1792673699854
     },
     "engineering_hr_public/_Templates": {
       "isPinned": false,
@@ -1758,7 +592,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1792673699854,
-      "mtime": 1792673699854
+      "mtime": 1792848335382
     },
     "engineering_hr_public/_Templates/Position (JD).md": {
       "isPinned": false,
@@ -1771,18 +605,6 @@
       "isHidden": false,
       "ctime": 1792673699854,
       "mtime": 1792673699854
-    },
-    "01_Satellite architecture/GENDRE David (private).md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792681977789,
-      "mtime": 1792681977789
-    },
-    "01_Satellite architecture/MISDARIIS Antony (private).md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1792681977799,
-      "mtime": 1792681977799
     },
     "02_SE_Modeling_and_Simulation/TBH - Consultant SE Modeling (private).md": {
       "isPinned": false,
@@ -1927,6 +749,1236 @@
       "isHidden": false,
       "ctime": 1792681977829,
       "mtime": 1792681977829
+    },
+    "engineering_hr_public/10_Persons": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "01_Satellite architecture",
+        "People.base",
+        "Org chart.canvas",
+        "09_Robotics_Mechanisms",
+        "08_Electrical_Power_RF",
+        "07_Mech_Thermal_CoC",
+        "06_Structure_Architecture",
+        "05_Propulsion",
+        "04_E2E_V&V",
+        "03_System_Engineering_Design",
+        "02_SE_Modeling_and_Simulation",
+        "00_Index.md",
+        "Org chart.html"
+      ]
+    },
+    "Org chart.canvas": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792673699851,
+      "mtime": 1792845792100
+    },
+    "engineering_hr_public/10_Persons/Org chart.html": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792845948232,
+      "mtime": 1792847646380
+    },
+    "01_Satellite architecture": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "MISDARIIS Antony (private).md",
+        "MAILLET Geoffrey (private).md",
+        "GENDRE David (private).md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848058082,
+      "mtime": 1792848058082
+    },
+    "01_Satellite architecture/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848058084,
+      "mtime": 1792848058084
+    },
+    "01_Satellite architecture/GENDRE David (private).md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848058085,
+      "mtime": 1792848058085
+    },
+    "01_Satellite architecture/MAILLET Geoffrey (private).md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848058086,
+      "mtime": 1792848058086
+    },
+    "01_Satellite architecture/MISDARIIS Antony (private).md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848058087,
+      "mtime": 1792848058087
+    },
+    "engineering_hr_public/20_Positions": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "Reviews organisation.canvas",
+        "Positions.base",
+        "JD - Team Lead.md",
+        "JD - Project Technical Lead.md",
+        "Engineering Roles.canvas",
+        "09_Robotics_Mechanisms",
+        "08_Electrical_Power_RF",
+        "07_Mech_Thermal_CoC",
+        "06_Structure_Architecture",
+        "05_Propulsion",
+        "04_E2E_V&V",
+        "03_System_Engineering_Design",
+        "02_SE_Modeling_and_Simulation",
+        "01_Satellite architecture",
+        "00_Index.md"
+      ],
+      "ctime": 1792848120683,
+      "mtime": 1792848120683
+    },
+    "engineering_hr_public/20_Positions/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120685,
+      "mtime": 1792848335352
+    },
+    "engineering_hr_public/20_Positions/01_Satellite architecture": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "JD - System Quality Engineer.md",
+        "JD - Chief System Architect.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848120685,
+      "mtime": 1792848120685
+    },
+    "engineering_hr_public/20_Positions/02_SE_Modeling_and_Simulation": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "JD - Multi-Physics Simulation Engineer.md",
+        "JD - Multi-Physics Simulation Architect.md",
+        "JD - Mission Systems Engineer.md",
+        "JD - CONOPS Systems Engineer.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848120686,
+      "mtime": 1792848120686
+    },
+    "engineering_hr_public/20_Positions/03_System_Engineering_Design": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "JD - Systems Engineer.md",
+        "JD - ITU Simulation Engineer.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848120686,
+      "mtime": 1792848120686
+    },
+    "engineering_hr_public/20_Positions/04_E2E_V&V": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "JD - V&V Systems Engineer.md",
+        "JD - V&V Architect.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848120686,
+      "mtime": 1792848120686
+    },
+    "engineering_hr_public/20_Positions/05_Propulsion": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "JD - Propulsion Engineer.md",
+        "JD - Propulsion Architect.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848120687,
+      "mtime": 1792848120687
+    },
+    "engineering_hr_public/20_Positions/06_Structure_Architecture": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "JD - Thermal Architect.md",
+        "JD - Mechanical Architect.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848120687,
+      "mtime": 1792848120687
+    },
+    "engineering_hr_public/20_Positions/07_Mech_Thermal_CoC": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "JD - Thermal Engineer.md",
+        "JD - Mechanical Engineer.md",
+        "JD - Design Engineer.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848120687,
+      "mtime": 1792848120687
+    },
+    "engineering_hr_public/20_Positions/08_Electrical_Power_RF": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "JD - RF System Architect.md",
+        "JD - RF Payload Architect.md",
+        "JD - RF Engineer.md",
+        "JD - Power Engineer.md",
+        "JD - Power Architect.md",
+        "JD - Harness Engineer.md",
+        "JD - Harness Architect.md",
+        "JD - Electronics Engineer.md",
+        "JD - EMC Architect.md",
+        "JD - Electrical Architect.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848120688,
+      "mtime": 1792848120688
+    },
+    "engineering_hr_public/20_Positions/09_Robotics_Mechanisms": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "JD - Robotics Engineering Intern.md",
+        "JD - Robotics Engineer.md",
+        "JD - Robotics Architect.md",
+        "JD - Mechanisms Engineer.md",
+        "JD - Future Docking Systems Intern.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848120688,
+      "mtime": 1792848120688
+    },
+    "engineering_hr_public/20_Positions/Engineering Roles.canvas": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120691,
+      "mtime": 1792848120691
+    },
+    "engineering_hr_public/20_Positions/JD - Project Technical Lead.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120693,
+      "mtime": 1792848120693
+    },
+    "engineering_hr_public/20_Positions/JD - Team Lead.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120694,
+      "mtime": 1792848120694
+    },
+    "engineering_hr_public/20_Positions/Positions.base": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120696,
+      "mtime": 1792848120696
+    },
+    "engineering_hr_public/20_Positions/Reviews organisation.canvas": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120698,
+      "mtime": 1792848120698
+    },
+    "engineering_hr_public/20_Positions/01_Satellite architecture/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120702,
+      "mtime": 1792848335353
+    },
+    "engineering_hr_public/20_Positions/01_Satellite architecture/JD - Chief System Architect.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120703,
+      "mtime": 1792848120703
+    },
+    "engineering_hr_public/20_Positions/01_Satellite architecture/JD - System Quality Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120704,
+      "mtime": 1792848120704
+    },
+    "engineering_hr_public/20_Positions/02_SE_Modeling_and_Simulation/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120705,
+      "mtime": 1792848335353
+    },
+    "engineering_hr_public/20_Positions/02_SE_Modeling_and_Simulation/JD - CONOPS Systems Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120706,
+      "mtime": 1792848120706
+    },
+    "engineering_hr_public/20_Positions/02_SE_Modeling_and_Simulation/JD - Mission Systems Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120707,
+      "mtime": 1792848120708
+    },
+    "engineering_hr_public/20_Positions/02_SE_Modeling_and_Simulation/JD - Multi-Physics Simulation Architect.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120708,
+      "mtime": 1792848120708
+    },
+    "engineering_hr_public/20_Positions/02_SE_Modeling_and_Simulation/JD - Multi-Physics Simulation Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120709,
+      "mtime": 1792848120709
+    },
+    "engineering_hr_public/20_Positions/03_System_Engineering_Design/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120710,
+      "mtime": 1792848335353
+    },
+    "engineering_hr_public/20_Positions/03_System_Engineering_Design/JD - ITU Simulation Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120710,
+      "mtime": 1792848120710
+    },
+    "engineering_hr_public/20_Positions/03_System_Engineering_Design/JD - Systems Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120711,
+      "mtime": 1792848120711
+    },
+    "engineering_hr_public/20_Positions/04_E2E_V&V/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120711,
+      "mtime": 1792848335354
+    },
+    "engineering_hr_public/20_Positions/04_E2E_V&V/JD - V&V Architect.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120712,
+      "mtime": 1792848120712
+    },
+    "engineering_hr_public/20_Positions/04_E2E_V&V/JD - V&V Systems Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120713,
+      "mtime": 1792848120713
+    },
+    "engineering_hr_public/20_Positions/05_Propulsion/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120713,
+      "mtime": 1792848335354
+    },
+    "engineering_hr_public/20_Positions/05_Propulsion/JD - Propulsion Architect.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120714,
+      "mtime": 1792848335354
+    },
+    "engineering_hr_public/20_Positions/05_Propulsion/JD - Propulsion Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120714,
+      "mtime": 1792848120714
+    },
+    "engineering_hr_public/20_Positions/06_Structure_Architecture/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120715,
+      "mtime": 1792848335355
+    },
+    "engineering_hr_public/20_Positions/06_Structure_Architecture/JD - Mechanical Architect.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120715,
+      "mtime": 1792848120715
+    },
+    "engineering_hr_public/20_Positions/06_Structure_Architecture/JD - Thermal Architect.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120716,
+      "mtime": 1792848120716
+    },
+    "engineering_hr_public/20_Positions/07_Mech_Thermal_CoC/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120716,
+      "mtime": 1792848335355
+    },
+    "engineering_hr_public/20_Positions/07_Mech_Thermal_CoC/JD - Design Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120717,
+      "mtime": 1792848120717
+    },
+    "engineering_hr_public/20_Positions/07_Mech_Thermal_CoC/JD - Mechanical Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120717,
+      "mtime": 1792848120717
+    },
+    "engineering_hr_public/20_Positions/07_Mech_Thermal_CoC/JD - Thermal Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120718,
+      "mtime": 1792848120718
+    },
+    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120718,
+      "mtime": 1792848335381
+    },
+    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - Electrical Architect.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120719,
+      "mtime": 1792848120719
+    },
+    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - EMC Architect.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120719,
+      "mtime": 1792848120719
+    },
+    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - Electronics Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120720,
+      "mtime": 1792848120720
+    },
+    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - Harness Architect.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120720,
+      "mtime": 1792848120720
+    },
+    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - Harness Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120721,
+      "mtime": 1792848120721
+    },
+    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - Power Architect.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120721,
+      "mtime": 1792848120721
+    },
+    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - Power Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120722,
+      "mtime": 1792848120722
+    },
+    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - RF Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120722,
+      "mtime": 1792848120722
+    },
+    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - RF Payload Architect.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120723,
+      "mtime": 1792848120723
+    },
+    "engineering_hr_public/20_Positions/08_Electrical_Power_RF/JD - RF System Architect.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120723,
+      "mtime": 1792848120723
+    },
+    "engineering_hr_public/20_Positions/09_Robotics_Mechanisms/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120724,
+      "mtime": 1792848335381
+    },
+    "engineering_hr_public/20_Positions/09_Robotics_Mechanisms/JD - Future Docking Systems Intern.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120724,
+      "mtime": 1792848120724
+    },
+    "engineering_hr_public/20_Positions/09_Robotics_Mechanisms/JD - Mechanisms Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120725,
+      "mtime": 1792848120725
+    },
+    "engineering_hr_public/20_Positions/09_Robotics_Mechanisms/JD - Robotics Architect.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120725,
+      "mtime": 1792848120725
+    },
+    "engineering_hr_public/20_Positions/09_Robotics_Mechanisms/JD - Robotics Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120726,
+      "mtime": 1792848120726
+    },
+    "engineering_hr_public/20_Positions/09_Robotics_Mechanisms/JD - Robotics Engineering Intern.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120726,
+      "mtime": 1792848120726
+    },
+    "engineering_hr_public/README.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848120792,
+      "mtime": 1792848335381
+    },
+    "engineering_hr_public/10_Persons/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335267,
+      "mtime": 1792848335267
+    },
+    "engineering_hr_public/10_Persons/02_SE_Modeling_and_Simulation": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "TBH - Multi-Physics Engineer.md",
+        "TBH - Mission Systems Engineer.md",
+        "TBH - Consultant SE Modeling.md",
+        "RAJ Brynel.md",
+        "GOLLAPALLI Chandra Uday.md",
+        "BARATAUD Paul.md",
+        "ANAND Karan.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848335278,
+      "mtime": 1792848335278
+    },
+    "engineering_hr_public/10_Persons/02_SE_Modeling_and_Simulation/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335280,
+      "mtime": 1792848335280
+    },
+    "engineering_hr_public/10_Persons/02_SE_Modeling_and_Simulation/ANAND Karan.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335281,
+      "mtime": 1792848335281
+    },
+    "engineering_hr_public/10_Persons/02_SE_Modeling_and_Simulation/BARATAUD Paul.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335282,
+      "mtime": 1792848335282
+    },
+    "engineering_hr_public/10_Persons/02_SE_Modeling_and_Simulation/GOLLAPALLI Chandra Uday.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335283,
+      "mtime": 1792848335283
+    },
+    "engineering_hr_public/10_Persons/02_SE_Modeling_and_Simulation/RAJ Brynel.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335285,
+      "mtime": 1792848335285
+    },
+    "engineering_hr_public/10_Persons/02_SE_Modeling_and_Simulation/TBH - Consultant SE Modeling.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335285,
+      "mtime": 1792848335285
+    },
+    "engineering_hr_public/10_Persons/02_SE_Modeling_and_Simulation/TBH - Mission Systems Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335285,
+      "mtime": 1792848335285
+    },
+    "engineering_hr_public/10_Persons/02_SE_Modeling_and_Simulation/TBH - Multi-Physics Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335286,
+      "mtime": 1792848335286
+    },
+    "engineering_hr_public/10_Persons/03_System_Engineering_Design": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "TBH - Systems Engineer.md",
+        "TBH - Space Systems Engineer.md",
+        "TBH - Consultant SE Design.md",
+        "GUIRAUD Vincent.md",
+        "DE MARISCAL SALAVERRIA Javier.md",
+        "CAVEZZA Francesco.md",
+        "BUCCIANTINI Luca.md",
+        "ADRAO Naseim.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848335288,
+      "mtime": 1792848335288
+    },
+    "engineering_hr_public/10_Persons/03_System_Engineering_Design/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335288,
+      "mtime": 1792848335288
+    },
+    "engineering_hr_public/10_Persons/03_System_Engineering_Design/ADRAO Naseim.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335289,
+      "mtime": 1792848335289
+    },
+    "engineering_hr_public/10_Persons/03_System_Engineering_Design/BUCCIANTINI Luca.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335289,
+      "mtime": 1792848335289
+    },
+    "engineering_hr_public/10_Persons/03_System_Engineering_Design/CAVEZZA Francesco.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335289,
+      "mtime": 1792848335289
+    },
+    "engineering_hr_public/10_Persons/03_System_Engineering_Design/DE MARISCAL SALAVERRIA Javier.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335290,
+      "mtime": 1792848335290
+    },
+    "engineering_hr_public/10_Persons/03_System_Engineering_Design/GUIRAUD Vincent.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335290,
+      "mtime": 1792848335290
+    },
+    "engineering_hr_public/10_Persons/03_System_Engineering_Design/TBH - Consultant SE Design.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335290,
+      "mtime": 1792848335290
+    },
+    "engineering_hr_public/10_Persons/03_System_Engineering_Design/TBH - Space Systems Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335291,
+      "mtime": 1792848335291
+    },
+    "engineering_hr_public/10_Persons/03_System_Engineering_Design/TBH - Systems Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335291,
+      "mtime": 1792848335291
+    },
+    "engineering_hr_public/10_Persons/04_E2E_V&V": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "THAUVIN Emmanuelle.md",
+        "TBH - V&V Systems Engineer.md",
+        "TBH - Consultant V&V 2.md",
+        "SANGHVI Nishita.md",
+        "TBH - Consultant V&V 1.md",
+        "A. Jean-Luc.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848335292,
+      "mtime": 1792848335292
+    },
+    "engineering_hr_public/10_Persons/04_E2E_V&V/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335293,
+      "mtime": 1792848335293
+    },
+    "engineering_hr_public/10_Persons/04_E2E_V&V/A. Jean-Luc.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335293,
+      "mtime": 1792848335293
+    },
+    "engineering_hr_public/10_Persons/04_E2E_V&V/TBH - Consultant V&V 1.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335294,
+      "mtime": 1792848335294
+    },
+    "engineering_hr_public/10_Persons/04_E2E_V&V/SANGHVI Nishita.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335294,
+      "mtime": 1792848335294
+    },
+    "engineering_hr_public/10_Persons/04_E2E_V&V/TBH - Consultant V&V 2.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335294,
+      "mtime": 1792848335294
+    },
+    "engineering_hr_public/10_Persons/04_E2E_V&V/TBH - V&V Systems Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335295,
+      "mtime": 1792848335295
+    },
+    "engineering_hr_public/10_Persons/04_E2E_V&V/THAUVIN Emmanuelle.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335295,
+      "mtime": 1792848335295
+    },
+    "engineering_hr_public/10_Persons/05_Propulsion": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "NAYAK Amit.md",
+        "MADHUSUDHANA Vageesha.md",
+        "LOPEZ Pablo.md",
+        "BOYE Célian.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848335297,
+      "mtime": 1792848335297
+    },
+    "engineering_hr_public/10_Persons/05_Propulsion/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335298,
+      "mtime": 1792848335298
+    },
+    "engineering_hr_public/10_Persons/05_Propulsion/BOYE Célian.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335298,
+      "mtime": 1792848335298
+    },
+    "engineering_hr_public/10_Persons/05_Propulsion/LOPEZ Pablo.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335299,
+      "mtime": 1792848335299
+    },
+    "engineering_hr_public/10_Persons/05_Propulsion/MADHUSUDHANA Vageesha.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335299,
+      "mtime": 1792848335299
+    },
+    "engineering_hr_public/10_Persons/05_Propulsion/NAYAK Amit.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335300,
+      "mtime": 1792848335300
+    },
+    "engineering_hr_public/10_Persons/06_Structure_Architecture": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "VIENNE Justine.md",
+        "TBH - Thermal Architect (Virgile).md",
+        "T. Ian.md",
+        "PROUET Victor.md",
+        "MONAMY Virgil.md",
+        "GACOIN Florian.md",
+        "DODEL Jean.md",
+        "DE RIBET Clement.md",
+        "BONTEMPS William.md",
+        "AHMED Fatima.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848335301,
+      "mtime": 1792848335301
+    },
+    "engineering_hr_public/10_Persons/06_Structure_Architecture/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335303,
+      "mtime": 1792848335303
+    },
+    "engineering_hr_public/10_Persons/06_Structure_Architecture/AHMED Fatima.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335303,
+      "mtime": 1792848335303
+    },
+    "engineering_hr_public/10_Persons/06_Structure_Architecture/BONTEMPS William.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335304,
+      "mtime": 1792848335304
+    },
+    "engineering_hr_public/10_Persons/06_Structure_Architecture/DE RIBET Clement.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335304,
+      "mtime": 1792848335304
+    },
+    "engineering_hr_public/10_Persons/06_Structure_Architecture/DODEL Jean.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335304,
+      "mtime": 1792848335304
+    },
+    "engineering_hr_public/10_Persons/06_Structure_Architecture/GACOIN Florian.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335305,
+      "mtime": 1792848335305
+    },
+    "engineering_hr_public/10_Persons/06_Structure_Architecture/MONAMY Virgil.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335307,
+      "mtime": 1792848335307
+    },
+    "engineering_hr_public/10_Persons/06_Structure_Architecture/PROUET Victor.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335307,
+      "mtime": 1792848335307
+    },
+    "engineering_hr_public/10_Persons/06_Structure_Architecture/T. Ian.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335308,
+      "mtime": 1792848335308
+    },
+    "engineering_hr_public/10_Persons/06_Structure_Architecture/TBH - Thermal Architect (Virgile).md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335308,
+      "mtime": 1792848335308
+    },
+    "engineering_hr_public/10_Persons/06_Structure_Architecture/VIENNE Justine.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335309,
+      "mtime": 1792848335309
+    },
+    "engineering_hr_public/10_Persons/07_Mech_Thermal_CoC": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "WURZINGER Samuel.md",
+        "TBH - Mech & Thermal CoC Team Lead.md",
+        "TBH - Design Engineer x2.md",
+        "RAMACHANDRARAO-KRISHNAMURTHY Hari.md",
+        "PARTHASARATHY VENKATAKRISHNAN Pranav.md",
+        "Morad.md",
+        "FERNANDES LEITAO Joao.md",
+        "E. Damien.md",
+        "DUBRAY Vincent.md",
+        "DEGUDE Guillaume.md",
+        "BETTOLO Matthieu.md",
+        "ARNOUD Axel.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848335312,
+      "mtime": 1792848335312
+    },
+    "engineering_hr_public/10_Persons/07_Mech_Thermal_CoC/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335313,
+      "mtime": 1792848335313
+    },
+    "engineering_hr_public/10_Persons/07_Mech_Thermal_CoC/ARNOUD Axel.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335314,
+      "mtime": 1792848335314
+    },
+    "engineering_hr_public/10_Persons/07_Mech_Thermal_CoC/BETTOLO Matthieu.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335315,
+      "mtime": 1792848335315
+    },
+    "engineering_hr_public/10_Persons/07_Mech_Thermal_CoC/DEGUDE Guillaume.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335315,
+      "mtime": 1792848335315
+    },
+    "engineering_hr_public/10_Persons/07_Mech_Thermal_CoC/DUBRAY Vincent.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335316,
+      "mtime": 1792848335316
+    },
+    "engineering_hr_public/10_Persons/07_Mech_Thermal_CoC/E. Damien.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335317,
+      "mtime": 1792848335317
+    },
+    "engineering_hr_public/10_Persons/07_Mech_Thermal_CoC/FERNANDES LEITAO Joao.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335317,
+      "mtime": 1792848335317
+    },
+    "engineering_hr_public/10_Persons/07_Mech_Thermal_CoC/Morad.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335318,
+      "mtime": 1792848335318
+    },
+    "engineering_hr_public/10_Persons/07_Mech_Thermal_CoC/PARTHASARATHY VENKATAKRISHNAN Pranav.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335318,
+      "mtime": 1792848335318
+    },
+    "engineering_hr_public/10_Persons/07_Mech_Thermal_CoC/RAMACHANDRARAO-KRISHNAMURTHY Hari.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335319,
+      "mtime": 1792848335319
+    },
+    "engineering_hr_public/10_Persons/07_Mech_Thermal_CoC/TBH - Design Engineer x2.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335320,
+      "mtime": 1792848335320
+    },
+    "engineering_hr_public/10_Persons/07_Mech_Thermal_CoC/TBH - Mech & Thermal CoC Team Lead.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335320,
+      "mtime": 1792848335320
+    },
+    "engineering_hr_public/10_Persons/07_Mech_Thermal_CoC/WURZINGER Samuel.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335321,
+      "mtime": 1792848335321
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "TELLARINI Andres.md",
+        "TBH - RF Payload Architect.md",
+        "TBH - Senior Electronics Engineer.md",
+        "TBH - Power Engineer.md",
+        "TBH - Harness Engineer.md",
+        "TBH - EMC Architect.md",
+        "SERRANO Federico.md",
+        "SAKA Siddhant.md",
+        "RAD IOAN Octavian.md",
+        "PINKERTON Robert.md",
+        "P. Alexandre.md",
+        "PEREZ SORIANO Tatiana.md",
+        "MADALA Vimala.md",
+        "KOZLOWSKI Frederic.md",
+        "H. Pedro.md",
+        "H. Aurelien.md",
+        "GOSSIN Antonin.md",
+        "GERARD Jonas - replaced by Jessica.md",
+        "FATHALLAH Wassim.md",
+        "CHAVES Gabriel.md",
+        "C. Tiberiu.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848335324,
+      "mtime": 1792848335324
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335326,
+      "mtime": 1792848335326
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/C. Tiberiu.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335326,
+      "mtime": 1792848335326
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/CHAVES Gabriel.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335327,
+      "mtime": 1792848335327
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/FATHALLAH Wassim.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335327,
+      "mtime": 1792848335327
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/GERARD Jonas - replaced by Jessica.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335328,
+      "mtime": 1792848335328
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/GOSSIN Antonin.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335328,
+      "mtime": 1792848335328
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/H. Aurelien.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335329,
+      "mtime": 1792848335329
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/H. Pedro.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335329,
+      "mtime": 1792848335329
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/KOZLOWSKI Frederic.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335330,
+      "mtime": 1792848335330
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/MADALA Vimala.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335330,
+      "mtime": 1792848335330
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/PEREZ SORIANO Tatiana.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335331,
+      "mtime": 1792848335331
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/P. Alexandre.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335331,
+      "mtime": 1792848335331
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/PINKERTON Robert.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335332,
+      "mtime": 1792848335332
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/RAD IOAN Octavian.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335332,
+      "mtime": 1792848335332
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/SAKA Siddhant.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335333,
+      "mtime": 1792848335333
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/SERRANO Federico.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335333,
+      "mtime": 1792848335333
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/TBH - EMC Architect.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335334,
+      "mtime": 1792848335334
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/TBH - Harness Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335334,
+      "mtime": 1792848335334
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/TBH - Power Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335335,
+      "mtime": 1792848335335
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/TBH - Senior Electronics Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335335,
+      "mtime": 1792848335335
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/TBH - RF Payload Architect.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335336,
+      "mtime": 1792848335336
+    },
+    "engineering_hr_public/10_Persons/08_Electrical_Power_RF/TELLARINI Andres.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335336,
+      "mtime": 1792848335336
+    },
+    "engineering_hr_public/10_Persons/09_Robotics_Mechanisms": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "WAGNER Moritz.md",
+        "TESSIER Alexandre.md",
+        "TBH - Mechanisms Systems Engineer.md",
+        "SUBRAMANI Sushir.md",
+        "SCOTT Lachlan.md",
+        "PARMA Diego.md",
+        "KOTHAPALLI Tejendhu Mouli.md",
+        "HORSHKOV Roman.md",
+        "BISSONNETTE Vincent.md",
+        "ANDRE Théo.md",
+        "00_Index.md"
+      ],
+      "ctime": 1792848335342,
+      "mtime": 1792848335342
+    },
+    "engineering_hr_public/10_Persons/09_Robotics_Mechanisms/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335343,
+      "mtime": 1792848335343
+    },
+    "engineering_hr_public/10_Persons/09_Robotics_Mechanisms/ANDRE Théo.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335343,
+      "mtime": 1792848335343
+    },
+    "engineering_hr_public/10_Persons/09_Robotics_Mechanisms/BISSONNETTE Vincent.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335344,
+      "mtime": 1792848335344
+    },
+    "engineering_hr_public/10_Persons/09_Robotics_Mechanisms/HORSHKOV Roman.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335344,
+      "mtime": 1792848335344
+    },
+    "engineering_hr_public/10_Persons/09_Robotics_Mechanisms/KOTHAPALLI Tejendhu Mouli.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335345,
+      "mtime": 1792848335345
+    },
+    "engineering_hr_public/10_Persons/09_Robotics_Mechanisms/PARMA Diego.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335345,
+      "mtime": 1792848335345
+    },
+    "engineering_hr_public/10_Persons/09_Robotics_Mechanisms/SCOTT Lachlan.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335345,
+      "mtime": 1792848335345
+    },
+    "engineering_hr_public/10_Persons/09_Robotics_Mechanisms/SUBRAMANI Sushir.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335346,
+      "mtime": 1792848335346
+    },
+    "engineering_hr_public/10_Persons/09_Robotics_Mechanisms/TBH - Mechanisms Systems Engineer.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335346,
+      "mtime": 1792848335346
+    },
+    "engineering_hr_public/10_Persons/09_Robotics_Mechanisms/TESSIER Alexandre.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335347,
+      "mtime": 1792848335347
+    },
+    "engineering_hr_public/10_Persons/09_Robotics_Mechanisms/WAGNER Moritz.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335347,
+      "mtime": 1792848335347
+    },
+    "engineering_hr_public/10_Persons/Org chart.canvas": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335350,
+      "mtime": 1792848335350
+    },
+    "engineering_hr_public/10_Persons/People.base": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848335352,
+      "mtime": 1792848335352
+    },
+    "engineering_hr_public/10_Persons/01_Satellite architecture": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "00_Index.md",
+        "GENDRE David.md",
+        "MAILLET Geoffrey.md",
+        "MISDARIIS Antony.md"
+      ]
+    },
+    "engineering_hr_public/10_Persons/01_Satellite architecture/00_Index.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848754872,
+      "mtime": 1792848754872
+    },
+    "engineering_hr_public/10_Persons/01_Satellite architecture/GENDRE David.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848754872,
+      "mtime": 1792848754872
+    },
+    "engineering_hr_public/10_Persons/01_Satellite architecture/MAILLET Geoffrey.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848754872,
+      "mtime": 1792848754873
+    },
+    "engineering_hr_public/10_Persons/01_Satellite architecture/MISDARIIS Antony.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1792848754870,
+      "mtime": 1792848754872
     }
   },
   "showHidden": false,

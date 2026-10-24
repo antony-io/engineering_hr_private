@@ -3,7 +3,7 @@
 	"name": "Mirror tree",
 	"version": "1.0.0",
 	"minAppVersion": "1.4.0",
-	"description": "Keeps the private team tree (vault root) in step with engineering_hr_public/10_Public: creating or renaming a note or folder on one side does the same on the other side.",
+	"description": "Keeps the private team tree (vault root) in step with engineering_hr_public/10_Persons: creating or renaming a note or folder on one side does the same on the other side.",
 	"author": "stef",
 	"isDesktopOnly": false
 }

@@ -39,7 +39,7 @@ Pre-filled on 09/10/2026 from the HR sheet (professional experience) with the de
 | **Engineer**: owns deliverables on a subsystem or work package                        | 1.00   | 1.20  | 1.40   |
 | **Architect**: owns the design and technical choices of a domain, sets the interfaces | 1.30   | 1.40  | 1.50   |
 | **Team lead**: manages a team (people, hiring, workload, competences)                 | 1.40   | 1.60  | 1.80   |
-
+find . -name \* -print -exec grep level {}
 Rules:
 - **Combined role** (team lead + architect, team lead + project technical lead): **+0.05**.
 - **Project technical lead** without a team: architect of the same level **+0.05**.
