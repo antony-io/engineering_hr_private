@@ -1,0 +1,9 @@
+{
+  "id": "salary-dashboard",
+  "name": "Salary dashboard",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Generates the private salary dashboard (HTML) from the private HR notes.",
+  "author": "Antony Misdariis",
+  "isDesktopOnly": true
+}

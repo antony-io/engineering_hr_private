@@ -1,0 +1,66 @@
+# ===========================
+# Obsidian vault - .gitignore
+# ===========================
+
+# --- État de l'interface (change à chaque ouverture, source de conflits) ---
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+
+# --- Caches Obsidian ---
+.obsidian/cache
+.obsidian/graph.json
+
+# --- Corbeille interne d'Obsidian ---
+.trash/
+
+# --- Plugins : données volatiles ou sensibles ---
+# Décommente si tu ne veux pas versionner les plugins eux-mêmes
+# .obsidian/plugins/
+
+# Données de plugins courants souvent locales / volumineuses
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/plugins/*/cache/
+.smart-connections/
+.smart-env/
+.makemd/
+.space/
+
+# Thèmes téléchargés (réinstallables)
+# .obsidian/themes/
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# --- iCloud ---
+*.icloud
+
+# --- Windows ---
+Thumbs.db
+desktop.ini
+
+# --- Linux ---
+*~
+.directory
+
+# --- Synchronisation / conflits ---
+*.sync-conflict-*
+.stfolder/
+.stversions/
+*.orig
+
+# --- Éditeurs ---
+.vscode/
+.idea/
+*.swp
+
+# --- Mirror tree: per-machine state (last seen commit of the submodule) ---
+.obsidian/plugins/mirror-tree/data.json
+Salary dashboard.html
+Salary.md
