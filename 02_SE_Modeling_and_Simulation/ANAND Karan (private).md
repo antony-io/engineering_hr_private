@@ -13,7 +13,7 @@ responsibility_role: Engineer (senior)
 responsibility_review:
 tags:
   - private
-trend_salary: 61701
+trend_salary: 61700
 pct_of_trend: 97
 raise_to_95: 0
 raise_to_100: 1700

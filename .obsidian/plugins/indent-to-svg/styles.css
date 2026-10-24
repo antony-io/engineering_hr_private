@@ -1,0 +1,26 @@
+.svgtree-wrap { overflow-x: auto; }
+.svgtree-wrap svg { display: block; margin: 0 auto; max-width: none; }
+.svgtree-box { fill: var(--background-secondary); stroke: var(--text-muted); stroke-width: 1.5; }
+.svgtree-root .svgtree-box { fill: var(--interactive-accent); stroke: var(--interactive-accent); }
+.svgtree-root text { fill: var(--text-on-accent); }
+.svgtree-sub .svgtree-box { stroke: var(--interactive-accent); stroke-width: 2; }
+.svgtree-wrap text { fill: var(--text-normal); font-family: var(--font-interface); font-size: 14px; }
+.svgtree-wrap text.svgtree-subtitle { font-size: 11px; opacity: 0.85; }
+.svgtree-line { stroke: var(--text-muted); stroke-width: 1.5; fill: none; }
+.svgtree-error { color: var(--text-error); }
+.svgtree-link { cursor: pointer; }
+.svgtree-link:hover .svgtree-box { filter: brightness(1.15); stroke-width: 2.5; }
+/* status (mode @source) */
+.svgtree-incoming .svgtree-box { stroke-dasharray: 5 3; stroke-width: 2; }
+.svgtree-leaving { opacity: 0.55; }
+/* legend */
+.svgtree-wrap svg.svgtree-legend { margin: 0 0 10px 0; }
+.svgtree-wrap text.svgtree-legend-text { font-size: 13px; }
+/* tags (CDD / Consultant) */
+.svgtree-tag { fill: var(--text-muted); }
+.svgtree-wrap text.svgtree-tag-text { font-size: 10px; font-weight: 700; fill: #fff; }
+/* export button */
+.svgtree-toolbar { display: flex; justify-content: flex-end; margin-bottom: 4px; }
+.svgtree-export-btn { font-size: 12px; padding: 2px 10px; }
+/* head-count bar */
+.svgtree-wrap text.svgtree-stat-text { font-size: 13px; font-weight: 700; }

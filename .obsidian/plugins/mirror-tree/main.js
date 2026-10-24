@@ -1,6 +1,6 @@
-/* Mirror tree – keeps the private team tree (vault root) and engineering_hr_public/10_Public in step.
- *   10_Public/<team>/<Name>.md  ↔  <team>/<Name> (private).md
- *   10_Public/<team>/           ↔  <team>/
+/* Mirror tree – keeps the private team tree (vault root) and engineering_hr_public/10_Persons in step.
+ *   10_Persons/<team>/<Name>.md  ↔  <team>/<Name> (private).md
+ *   10_Persons/<team>/           ↔  <team>/
  * Creating, renaming or moving a note / folder on one side does the same on the other side.
  * 00_Index.md keeps its name on both sides. Root private notes (Salary.md…) and non-.md files
  * (canvas, base, attachments) are never mirrored. Deletions are never mirrored.
@@ -11,7 +11,7 @@
 const { Plugin, Notice, TFolder } = require("obsidian");
 
 const SUBMODULE = "engineering_hr_public";
-const PUBLIC_DIR = "10_Public"; // inside the submodule
+const PUBLIC_DIR = "10_Persons"; // inside the submodule
 const PUBLIC_ROOT = SUBMODULE + "/" + PUBLIC_DIR;
 const SUFFIX = " (private)";
 const SAME_NAME = new Set(["00_Index"]);
@@ -25,7 +25,7 @@ const isFolder = f => f instanceof TFolder;
 // empty notes / folders, i.e. what this plugin creates and nobody has filled in yet
 const isBlank = f => (isFolder(f) ? f.children.every(isBlank) : f.extension === "md" && f.stat.size === 0);
 
-// public path → private path, null outside 10_Public
+// public path → private path, null outside 10_Persons
 function toPrivate(path, folder) {
   if (!path.startsWith(PUBLIC_ROOT + "/")) return null;
   const rel = path.slice(PUBLIC_ROOT.length + 1);
@@ -93,9 +93,9 @@ module.exports = class MirrorTreePlugin extends Plugin {
       this.run(() => this.applyGitRenames());
       this.run(() => this.syncToPrivate(false));
     });
-    this.addCommand({ id: "sync-to-private", name: "Create missing private notes (from 10_Public)", callback: () => this.run(() => this.syncToPrivate(true)) });
+    this.addCommand({ id: "sync-to-private", name: "Create missing private notes (from 10_Persons)", callback: () => this.run(() => this.syncToPrivate(true)) });
     this.addCommand({ id: "sync-to-public", name: "Create missing public notes (from the private tree)", callback: () => this.run(() => this.syncToPublic()) });
-    this.addCommand({ id: "git-renames", name: "Replay renames from the git history of 10_Public", callback: () => this.run(() => this.applyGitRenames(true)) });
+    this.addCommand({ id: "git-renames", name: "Replay renames from the git history of 10_Persons", callback: () => this.run(() => this.applyGitRenames(true)) });
   }
 
   onunload() { clearTimeout(this.timer); clearTimeout(this.gitTimer); }
@@ -235,7 +235,7 @@ module.exports = class MirrorTreePlugin extends Plugin {
     const orphans = this.allFiles().filter(f => { const t = toPublic(f.path, isFolder(f)); return t && !this.get(t); }).map(f => f.path);
     if (orphans.length) console.log("mirror-tree: private items without a public counterpart:\n" + orphans.join("\n"));
     const lines = [];
-    if (created) lines.push(`${created} private note(s) / folder(s) created from 10_Public.`);
+    if (created) lines.push(`${created} private note(s) / folder(s) created from 10_Persons.`);
     if (orphans.length) lines.push(`${orphans.length} private item(s) without a public counterpart:`, ...orphans.slice(0, 10), ...(orphans.length > 10 ? ["…"] : []),
       "→ rename them, or run “Create missing public notes”.");
     if (lines.length || manual) new Notice("Mirror tree\n" + (lines.join("\n") || "Both trees are in step."), 15000);
