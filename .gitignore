@@ -64,3 +64,6 @@ desktop.ini
 .obsidian/plugins/mirror-tree/data.json
 Salary dashboard.html
 Salary.md
+
+# Flexplorer: local state (folder dates), changes at every opening
+.obsidian/plugins/flexplorer/data.json
