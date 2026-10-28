@@ -1,6 +1,0 @@
-{
-	"nodes":[
-		{"id":"tree","type":"text","text":"```pbstree\n@source: engineering_hr_public/10_Persons\n@root: [[MILLET Stéphane|Functional Avionics — MILLET Stéphane]]\n@couleurs: #1f2d5c, #4a6fc7, -\n```","x":160,"y":160,"width":2940,"height":1920}
-	],
-	"edges":[]
-}

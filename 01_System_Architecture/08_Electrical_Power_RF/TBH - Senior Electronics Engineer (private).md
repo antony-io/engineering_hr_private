@@ -1,15 +1,16 @@
 ---
 type: private-hr
 person: "[[TBH - Senior Electronics Engineer]]"
-experience_years: 
-job_title: "Senior Electronic Engineer"
+experience_years:
+experience_coeff:
+responsibility_role: Engineer
+responsibility_coeff: 1.4
+adjustment_coeff: 0
+job_title: Senior Electronic Engineer
 salary_fixe: 60000
 bonus: 5000
-seniority_date: 
-last_raise_date: 
-experience_coeff: 
-responsibility_coeff: 1.40
-responsibility_role: "Engineer (senior)"
+seniority_date:
+last_raise_date:
 tags:
   - private
 ---

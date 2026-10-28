@@ -2,20 +2,21 @@
 type: private-hr
 person: "[[BUCCIANTINI Luca]]"
 experience_years: 9
+experience_coeff: 1.3
+responsibility_role: Team lead + project technical lead
+responsibility_coeff: 1.65
+adjustment_coeff: 0.1
+salary_coeff: 2.275
 job_title: Project Technical Lead
 salary_fixe: 60000
 bonus: 5000
-seniority_date: 2025-09-15
+seniority_date: 2017-01-01
 last_raise_date:
-experience_coeff: 1.3
-responsibility_coeff: 1.65
-responsibility_role: Team lead (mid) + project technical lead
 tags:
   - private
-trend_salary: 71700
-pct_of_trend: 91
-raise_to_95: 3100
-raise_to_100: 6700
+trend_salary: 74200
+pct_of_trend: 88
+raise_to_100: 9200
 ---
 > [!warning] 🔒 Private – Antony only
 > Confidential HR data. Do not share, export or copy into other notes.

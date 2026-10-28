@@ -2,19 +2,20 @@
 type: private-hr
 person: "[[FOGLIANO Valerio]]"
 experience_years: 6
+experience_coeff: 1.2
+responsibility_role:
+responsibility_coeff: 1.8
+adjustment_coeff: 0
+salary_coeff: 2.16
 job_title:
 salary_fixe: 68000
 bonus: 6000
 seniority_date:
 last_raise_date:
-experience_coeff: 1.2
-responsibility_coeff: 1.8
-responsibility_role:
 tags:
   - private
-trend_salary: 72100
-pct_of_trend: 103
-raise_to_95: 0
+trend_salary: 71300
+pct_of_trend: 104
 raise_to_100: 0
 ---
 > [!warning] 🔒 Private – Antony only

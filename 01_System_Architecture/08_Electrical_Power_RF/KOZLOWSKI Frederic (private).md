@@ -2,19 +2,20 @@
 type: private-hr
 person: "[[KOZLOWSKI Frederic]]"
 experience_years: 12
+experience_coeff: 1.4
+responsibility_role: Architect
+responsibility_coeff: 1.4
+adjustment_coeff: 0
+salary_coeff: 1.96
 job_title: Team Leader Architecte Electrique
 salary_fixe: 72000
 bonus: 7200
-seniority_date:
+seniority_date: 2014-01-01
 last_raise_date:
-experience_coeff: 1.4
-responsibility_coeff: 1.4
-responsibility_role: Architect (mid)
 tags:
   - private
-trend_salary: 66800
+trend_salary: 66300
 pct_of_trend: 119
-raise_to_95: 0
 raise_to_100: 0
 ---
 > [!warning] 🔒 Private – Antony only

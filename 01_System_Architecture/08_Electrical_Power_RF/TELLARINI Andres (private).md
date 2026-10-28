@@ -2,19 +2,20 @@
 type: private-hr
 person: "[[TELLARINI Andres]]"
 experience_years: 14
+experience_coeff: 1.4
+responsibility_role: Architect
+responsibility_coeff: 1.4
+adjustment_coeff: 0
+salary_coeff: 1.96
 job_title: Satellite Electrical and Power Architect
 salary_fixe: 75000
 bonus: 7000
-seniority_date: 2026-09-14
+seniority_date: 2012-01-01
 last_raise_date:
-experience_coeff: 1.4
-responsibility_coeff: 1.4
-responsibility_role: Architect (mid)
 tags:
   - private
-trend_salary: 66800
-pct_of_trend: 123
-raise_to_95: 0
+trend_salary: 66300
+pct_of_trend: 124
 raise_to_100: 0
 ---
 > [!warning] 🔒 Private – Antony only

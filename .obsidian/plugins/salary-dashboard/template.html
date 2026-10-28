@@ -145,7 +145,7 @@ tr.hid td{opacity:.45}
   <div class="fgroup"><label class="t" for="fMetric">Salary</label>
     <select id="fMetric"><option value="fixe">Fixe</option><option value="total" selected>Fixe + bonus</option></select></div>
   <div class="fgroup" id="fHidden"></div>
-  <div class="budget" id="budgetBar" title="Total raise needed to bring everyone (CDI + CDD in post or arriving) below the trend to 95 % / 100 % of the average for their salary coeff. Filters and hidden people are ignored; edits of this session are included."></div>
+  <div class="budget" id="budgetBar" title="Total raise needed to bring everyone (CDI + CDD in post or arriving) below the trend to 100 % of the average for their salary coeff. Filters and hidden people are ignored; edits of this session are included."></div>
 </div>
 
 <div class="layout">
@@ -159,8 +159,8 @@ tr.hid td{opacity:.45}
   <section class="kpis" id="kpis"></section>
 
   <section class="card scatter">
-    <h2>Salary vs salary coeff (experience × responsibility)</h2>
-    <p class="sub">Salary coeff = experience coeff × responsibility coeff, from the private HR notes. Scroll or + / − to zoom, drag to pan, double-click to reset. Click a person for details, click again to close. Shift+click hides a person.</p>
+    <h2>Salary vs salary coeff ((responsibility + adjustment) × experience)</h2>
+    <p class="sub">Salary coeff = (responsibility coeff + adjustment coeff) × experience coeff, from the private HR notes. Scroll or + / − to zoom, drag to pan, double-click to reset. Click a person for details, click again to close. Shift+click hides a person.</p>
     <div class="zoombar" data-for="scCoef"></div>
     <svg id="scCoef" width="100%" height="460" role="img" aria-label="Scatter plot of salary against the salary coefficient"></svg>
     <div class="legend" id="lgCoef"></div>
@@ -278,7 +278,7 @@ function toggleHidden(d){ state.hidden.has(d.name) ? state.hidden.delete(d.name)
 const tip = document.getElementById("tip");
 function showTip(e, html){ tip.innerHTML = html; tip.style.display="block"; const x=Math.min(e.clientX+14, innerWidth-tip.offsetWidth-8), y=Math.min(e.clientY+14, innerHeight-tip.offsetHeight-8); tip.style.left=x+"px"; tip.style.top=y+"px"; }
 function hideTip(){ tip.style.display="none"; }
-const personTip = d => `<b>${d.name}</b><span class="r">${d.team} · ${d.contract}${d.status!=="active"?" · "+d.status:""}</span><br>${state.metric==="total"?"Fixe + bonus":"Fixe"}: ${fmtE(sal(d))}<br>Experience: ${d.exp==null?"—":d.exp+" y"} · in company ${fmtY(d.sen)}<br>Salary coeff ${d.sc==null?"—":d.sc.toFixed(2)} (exp ${d.ec??"—"} × resp ${d.resp??"—"})<br>Target ${fmtK(target(d))} · gap ${fmtG(gap(d))}<br>${d.respRole||"—"}<br><span class="r">click: details · shift+click: hide</span>`;
+const personTip = d => `<b>${d.name}</b><span class="r">${d.team} · ${d.contract}${d.status!=="active"?" · "+d.status:""}</span><br>${state.metric==="total"?"Fixe + bonus":"Fixe"}: ${fmtE(sal(d))}<br>Experience: ${d.exp==null?"—":d.exp+" y"} · in company ${fmtY(d.sen)}<br>Salary coeff ${d.sc==null?"—":d.sc.toFixed(2)} ((resp ${d.resp??"—"} + adj ${d.adj??0}) × exp ${d.ec??"—"})<br>Target ${fmtK(target(d))} · gap ${fmtG(gap(d))}<br>${d.respRole||"—"}<br><span class="r">click: details · shift+click: hide</span>`;
 
 // ---------- helpers
 function el(p, n, a={}, t){ const e=document.createElementNS(NS,n); for(const k in a) e.setAttribute(k,a[k]); if(t!=null) e.textContent=t; p.appendChild(e); return e; }
@@ -297,7 +297,7 @@ function kpis(rows){
     ["Std deviation", fmtK(sg), sg==null?"":`${Math.round(100*sg/m)}% of average · ±1σ: ${fmtK(m-sg)} – ${fmtK(m+sg)}`],
     ["Payroll fixe", fmtK(fx.reduce((a,b)=>a+b,0)), "sum / year"],
     ["Bonus total", fmtK(bo.reduce((a,b)=>a+b,0)), `avg ${fmtK(mean(bo))} · σ ${fmtK(sd(bo))}`],
-    (() => { const b = budget(); return ["Cost to reach 95 % / 100 % of trend", `${fmtK(b.s95)} / ${fmtK(b.s100)}`, `${b.n95} / ${b.n100} people · everyone (CDI + CDD), filters ignored`]; })(),
+    (() => { const b = budget(); return ["Cost to reach 100 % of trend", `${fmtK(b.s100)}`, `${b.n100} people · everyone (CDI + CDD), filters ignored`]; })(),
     ["Open positions budget", fmtK(open.reduce((a,d)=>a+(d.fixe||0),0)), state.status.has("open")?`${open.length} positions (fixe)`:"enable “Open positions” filter"],
   ];
   kpisEl.innerHTML = items.map(([k,v,n]) => `<div class="kpi"><div class="k">${k}</div><div class="v">${v}</div><div class="n">${n}</div></div>`).join("");
@@ -396,7 +396,7 @@ function makeScatter(svg, legend, xOf, xLabel, xFmt, xUnit, minSpan, unitScale=1
 }
 const respOf = d => d.resp;
 const SC = {
-  coef: makeScatter(scCoef, lgCoef, d => d.sc, () => "Salary coeff = experience coeff × responsibility coeff", x => (+x).toFixed(2), "+0.10 of salary coeff", 0.3, 0.1,
+  coef: makeScatter(scCoef, lgCoef, d => d.sc, () => "Salary coeff = (responsibility coeff + adjustment coeff) × experience coeff", x => (+x).toFixed(2), "+0.10 of salary coeff", 0.3, 0.1,
     (g, sx, sy, v) => {
       // target line is a fixe salary: only drawn when the metric is "Fixe"
       if (state.metric !== "fixe") return "target line shown with Salary = Fixe";
@@ -475,7 +475,7 @@ function drawDetail(){
    <dt>Salary fixe</dt><dd>${fmtE(d.fixe)}</dd><dt>Bonus</dt><dd>${fmtE(d.bonus)}</dd><dt>Fixe + bonus</dt><dd>${fmtE(d.fixe==null?null:d.fixe+(d.bonus||0))}</dd>
    <dt>Experience</dt><dd>${d.exp==null?"—":d.exp+" years"}</dd>
    <dt>In the company</dt><dd>${fmtY(d.sen)}${d.start?` <span class="tag">since ${d.start}</span>`:""}</dd><dt>Last raise</dt><dd>${d.lastRaise||"—"}${d.lastRaise?` <span class="tag">${fmtY(yrs(d.lastRaise))} ago</span>`:""}</dd>
-   <dt>Experience coeff</dt><dd>${d.ec??"—"}</dd><dt>Salary coeff</dt><dd>${d.sc==null?"—":d.sc.toFixed(2)}</dd><dt>Target salary</dt><dd>${fmtE(target(d))}</dd><dt>Gap to target</dt><dd>${fmtG(gap(d))}</dd><dt>Responsibility</dt><dd>${d.resp==null?"—":d.resp.toFixed(2)+(d.respRole?` <span class="tag">${d.respRole}</span>`:"")}</dd></dl>
+   <dt>Experience coeff</dt><dd>${d.ec??"—"}</dd><dt>Adjustment coeff</dt><dd>${d.adj??0}</dd><dt>Salary coeff</dt><dd>${d.sc==null?"—":d.sc.toFixed(2)}</dd><dt>Target salary</dt><dd>${fmtE(target(d))}</dd><dt>Gap to target</dt><dd>${fmtG(gap(d))}</dd><dt>Responsibility</dt><dd>${d.resp==null?"—":d.resp.toFixed(2)+(d.respRole?` <span class="tag">${d.respRole}</span>`:"")}</dd></dl>
    <div class="compare">Team average: ${fmtK(mean(ps))} ± ${fmtK(sd(ps))} (${peers.length} others)<br>
    Same responsibility role: ${samePos.length?fmtK(mean(samePos.map(sal)))+" ("+samePos.length+")":"—"}<br>
    ${pct==null||d.contract==="Intern"?"":`Higher than ${pct}% of all CDI + CDD · ${z>=0?"+":""}${z.toFixed(1)} σ from the average`}</div>
@@ -488,12 +488,12 @@ function drawDetail(){
 }
 
 // ---------- table
-const COLS = [["hide",""],["name","Name"],["team","Team"],["contract","Contract"],["exp","Exp. (y)","num"],["sen","In company (y)","num"],["ec","Exp. coeff","num"],["resp","Resp.","num"],["sc","Salary coeff","num"],["tgt","Target","num"],["gap","Gap","num"],["pref","% of ref.","num"],["r95","Raise → 95 %","num"],["r100","Raise → 100 %","num"],["lastRaise","Last raise"],["fixe","Fixe","num"],["bonus","Bonus","num"],["sal","Shown salary","num"]];
+const COLS = [["hide",""],["name","Name"],["team","Team"],["contract","Contract"],["exp","Exp. (y)","num"],["sen","In company (y)","num"],["ec","Exp. coeff","num"],["resp","Resp.","num"],["adj","Adj.","num"],["sc","Salary coeff","num"],["tgt","Target","num"],["gap","Gap","num"],["pref","% of ref.","num"],["r100","Raise → 100 %","num"],["lastRaise","Last raise"],["fixe","Fixe","num"],["bonus","Bonus","num"],["sal","Shown salary","num"]];
 function drawTable(){
   const rows = filtered().map(d=>({...d, sal:sal(d), tgt:target(d), gap:gap(d), pref:pctRef(d), r95:raiseTo(d,.95)||null, r100:raiseTo(d,1)||null, _d:d, hide:state.hidden.has(d.name)?1:0}));
   const {k,d} = state.sort; rows.sort((a,b)=>{ const x=a[k], y=b[k]; if(x==null) return 1; if(y==null) return -1; return (typeof x==="number"?x-y:String(x).localeCompare(String(y)))*d; });
   tbl.innerHTML = `<thead><tr>${COLS.map(([c,l,n])=>`<th data-k="${c}" class="${n||""}">${l}${state.sort.k===c&&l?(state.sort.d>0?" ▲":" ▼"):""}</th>`).join("")}</tr></thead><tbody>`+
-    rows.map((r,i)=>`<tr data-i="${i}" class="${state.sel===r._d?"sel":""}${r.hide?" hid":""}"><td><button class="btn" data-h="${i}" title="${r.hide?"Show in charts":"Hide from charts"}" style="padding:0 6px">${r.hide?"◌":"●"}</button></td><td><a class="plain" href="#" data-i="${i}">${r.name}</a>${isEdited(r._d)?'<span class="edited" title="edited">✎</span>':""}${r.hide?'<span class="tag">hidden</span>':""}</td><td>${r.team}</td><td>${r.contract}${r.status!=="active"?" · "+r.status:""}</td><td class="num">${r.exp??"—"}</td><td class="num">${r.sen==null?"—":r.sen.toFixed(1)}</td><td class="num">${r.ec??"—"}</td><td class="num">${r.resp??"—"}</td><td class="num">${r.sc==null?"—":r.sc.toFixed(2)}</td><td class="num">${fmtE(r.tgt)}</td><td class="num">${fmtG(r.gap)}</td><td class="num ${r.pref!=null&&r.pref<1?"below":""}">${r.pref==null?"—":Math.round(100*r.pref)+" %"}</td><td class="num">${r.r95?"+"+fmtE(r.r95):"—"}</td><td class="num">${r.r100?"+"+fmtE(r.r100):"—"}</td><td>${r.lastRaise||"—"}</td><td class="num">${fmtE(r.fixe)}</td><td class="num">${fmtE(r.bonus)}</td><td class="num">${fmtE(r.sal)}</td></tr>`).join("")+`</tbody>`;
+    rows.map((r,i)=>`<tr data-i="${i}" class="${state.sel===r._d?"sel":""}${r.hide?" hid":""}"><td><button class="btn" data-h="${i}" title="${r.hide?"Show in charts":"Hide from charts"}" style="padding:0 6px">${r.hide?"◌":"●"}</button></td><td><a class="plain" href="#" data-i="${i}">${r.name}</a>${isEdited(r._d)?'<span class="edited" title="edited">✎</span>':""}${r.hide?'<span class="tag">hidden</span>':""}</td><td>${r.team}</td><td>${r.contract}${r.status!=="active"?" · "+r.status:""}</td><td class="num">${r.exp??"—"}</td><td class="num">${r.sen==null?"—":r.sen.toFixed(1)}</td><td class="num">${r.ec??"—"}</td><td class="num">${r.resp??"—"}</td><td class="num">${r.adj??0}</td><td class="num">${r.sc==null?"—":r.sc.toFixed(2)}</td><td class="num">${fmtE(r.tgt)}</td><td class="num">${fmtG(r.gap)}</td><td class="num ${r.pref!=null&&r.pref<1?"below":""}">${r.pref==null?"—":Math.round(100*r.pref)+" %"}</td><td class="num">${r.r100?"+"+fmtE(r.r100):"—"}</td><td>${r.lastRaise||"—"}</td><td class="num">${fmtE(r.fixe)}</td><td class="num">${fmtE(r.bonus)}</td><td class="num">${fmtE(r.sal)}</td></tr>`).join("")+`</tbody>`;
   tbl.querySelectorAll("th").forEach(th=>th.onclick=()=>{ const c=th.dataset.k; state.sort = {k:c, d: state.sort.k===c ? -state.sort.d : (c==="name"||c==="team"||c==="contract"?1:-1)}; drawTable(); });
   tbl.querySelectorAll("a[data-i]").forEach(a=>a.onclick=e=>{ e.preventDefault(); state.sel=null; select(rows[+a.dataset.i]._d); scrollTo({top:0,behavior:"smooth"}); });
   tbl.querySelectorAll("button[data-h]").forEach(b=>b.onclick=()=>toggleHidden(rows[+b.dataset.h]._d));
@@ -503,23 +503,16 @@ function drawTable(){
 const today = () => new Date();
 const yrs = s => { if(!s) return null; const d = new Date(s); if (isNaN(d)) return null; return Math.max(0, (today()-d)/(365.25*864e5)); };
 const RGRID = {Engineer:{junior:1.00,mid:1.20,senior:1.40}, Architect:{junior:1.30,mid:1.40,senior:1.50}, "Team lead":{junior:1.40,mid:1.60,senior:1.80}};
-const ROLES = [];
-for (const r in RGRID) for (const l in RGRID[r]) ROLES.push(`${r} (${l})`);
-for (const l of ["junior","mid","senior"]) { ROLES.push(`Team lead (${l}) + architect`, `Team lead (${l}) + project technical lead`, `Project technical lead (${l})`); }
-ROLES.push("Intern");
-function roleCoeff(label){
-  if (!label) return null; if (label === "Intern") return 1.00;
-  const m = label.match(/^(Engineer|Architect|Team lead|Project technical lead) \((junior|mid|senior)\)(.*)$/); if (!m) return null;
-  if (m[1] === "Project technical lead") return +(RGRID.Architect[m[2]] + 0.05).toFixed(2);
-  return +(RGRID[m[1]][m[2]] + (m[3].trim() ? 0.05 : 0)).toFixed(2);
-}
+const ROLES = ["Engineer", "Architect", "Team lead", "Team lead + architect", "Team lead + project technical lead", "Project technical lead", "Intern"];
+// the role no longer carries a level: changing it does not change the responsibility coeff (set it from the grid), except Intern = 1.00
+function roleCoeff(label){ return label === "Intern" ? 1.00 : null; }
 const FIELDS = [ // key, note property, label, type
   ["fixe","salary_fixe","Salary fixe (€)","number"], ["bonus","bonus","Bonus (€)","number"],
   ["respRole","responsibility_role","Responsibility role","role"], ["resp","responsibility_coeff","Responsibility coeff","coef"],
-  ["ec","experience_coeff","Experience coeff","coef"],
+  ["ec","experience_coeff","Experience coeff","coef"], ["adj","adjustment_coeff","Adjustment coeff","coef"],
   ["start","seniority_date","Seniority date","date"], ["lastRaise","last_raise_date","Last raise","date"] ];
 const ORIG = new Map(DATA.map(d => [d, Object.fromEntries(FIELDS.map(([k]) => [k, d[k] ?? null]))]));
-function derive(d){ d.sc = d.ec && d.resp ? +(d.ec * d.resp).toFixed(4) : null; d.sen = yrs(d.start); }
+function derive(d){ d.sc = d.ec && d.resp ? +((d.resp + (d.adj || 0)) * d.ec).toFixed(4) : null; d.sen = yrs(d.start); }
 function setField(d, k, raw){
   const type = FIELDS.find(f => f[0] === k)[3];
   let v = raw === "" ? null : raw;
@@ -605,7 +598,7 @@ function raiseBox(d){
   const line = (lbl, v, pc) => `<tr><td>${lbl}</td><td class="num">${v ? "+" + fmtE(v) : "—"}</td><td class="num">${v ? "+" + (100 * v / d.fixe).toFixed(1) + " %" : "reached"}</td><td>${v ? `<button class="btn" data-apply="${d.fixe + v}">Apply</button>` : ""}</td></tr>`;
   return `<div class="raise"><h4>Raise vs ${REF_NAMES[state.ref]}</h4>
     <div class="compare">Reference ${fmtE(r)} · current fixe + bonus = <b class="${p < 1 ? "below" : ""}">${(100 * p).toFixed(0)} %</b> of it</div>
-    ${p < 1 ? `<table>${line("to reach 95 %", r95)}${line("to reach 100 %", r100)}</table>` : `<div class="compare">At or above the reference – no raise needed.</div>`}</div>`;
+    ${p < 1 ? `<table>${line("to reach 100 %", r100)}</table>` : `<div class="compare">At or above the reference – no raise needed.</div>`}</div>`;
 }
 
 // cost to bring everyone below the trend to 95 % / 100 % of it – always on everybody, filters ignored
@@ -617,7 +610,7 @@ function budget(){
 }
 function drawBudget(){
   const b = budget();
-  budgetBar.innerHTML = `Cost to <b>95 %</b> of trend <b>${fmtK(b.s95)}</b> <span>(${b.n95} people)</span> · to <b>100 %</b> <b>${fmtK(b.s100)}</b> <span>(${b.n100})</span>`;
+  budgetBar.innerHTML = `Cost to <b>100 %</b> of trend <b>${fmtK(b.s100)}</b> <span>(${b.n100} people)</span>`;
 }
 
 // ---------- people sidebar

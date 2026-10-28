@@ -2,14 +2,15 @@
 type: private-hr
 person: "[[MILLET Stéphane]]"
 experience_years:
+experience_coeff:
+responsibility_role:
+responsibility_coeff:
+adjustment_coeff: 0
 job_title:
 salary_fixe:
 bonus:
 seniority_date:
 last_raise_date:
-experience_coeff:
-responsibility_coeff:
-responsibility_role:
 tags:
   - private
 ---

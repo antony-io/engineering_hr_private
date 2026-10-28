@@ -1,15 +1,16 @@
 ---
 type: private-hr
 person: "[[PARTHASARATHY VENKATAKRISHNAN Pranav]]"
-experience_years: 
-job_title: "Mechanical engineer intern"
+experience_years:
+experience_coeff:
+responsibility_role: Engineer
+responsibility_coeff: 1
+adjustment_coeff: 0
+job_title: Mechanical engineer intern
 salary_fixe: 12000
 bonus: 0
 seniority_date:
-last_raise_date: 
-experience_coeff:
-responsibility_coeff: 1.00
-responsibility_role: "Engineer (junior)"
+last_raise_date:
 tags:
   - private
 ---

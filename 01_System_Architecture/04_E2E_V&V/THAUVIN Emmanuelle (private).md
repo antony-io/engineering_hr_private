@@ -2,19 +2,20 @@
 type: private-hr
 person: "[[THAUVIN Emmanuelle]]"
 experience_years: 21
+experience_coeff: 1.5
+responsibility_role: Team lead
+responsibility_coeff: 1.6
+adjustment_coeff: 0
+salary_coeff: 2.4
 job_title: V&V Lead
 salary_fixe: 80000
 bonus: 5000
-seniority_date:
+seniority_date: 2005-01-01
 last_raise_date:
-experience_coeff: 1.5
-responsibility_coeff: 1.6
-responsibility_role: Team lead (mid)
 tags:
   - private
-trend_salary: 78500
-pct_of_trend: 108
-raise_to_95: 0
+trend_salary: 77400
+pct_of_trend: 110
 raise_to_100: 0
 ---
 > [!warning] 🔒 Private – Antony only

@@ -2,20 +2,21 @@
 type: private-hr
 person: "[[BOYE Célian]]"
 experience_years: 6
+experience_coeff: 1.2
+responsibility_role: Architect
+responsibility_coeff: 1.3
+adjustment_coeff: 0
+salary_coeff: 1.56
 job_title: Propulsion Architect
 salary_fixe: 50000
 bonus: 4000
-seniority_date: 2026-08-03
+seniority_date: 2020-01-01
 last_raise_date:
-experience_coeff: 1.1
-responsibility_coeff: 1.3
-responsibility_role: Architect (junior)
 tags:
   - private
-trend_salary: 52700
-pct_of_trend: 103
-raise_to_95: 0
-raise_to_100: 0
+trend_salary: 56200
+pct_of_trend: 96
+raise_to_100: 2200
 ---
 > [!warning] 🔒 Private – Antony only
 > Confidential HR data. Do not share, export or copy into other notes.

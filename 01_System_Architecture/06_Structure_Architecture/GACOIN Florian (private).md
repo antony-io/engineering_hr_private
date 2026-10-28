@@ -2,19 +2,20 @@
 type: private-hr
 person: "[[GACOIN Florian]]"
 experience_years: 19
+experience_coeff: 1.5
+responsibility_role: Architect
+responsibility_coeff: 1.6
+adjustment_coeff: 0
+salary_coeff: 2.4
 job_title: Senior Thermal Architect
 salary_fixe: 75000
 bonus: 7000
-seniority_date: 2026-06-08
+seniority_date: 2007-01-01
 last_raise_date:
-experience_coeff: 1.5
-responsibility_coeff: 1.5
-responsibility_role: Architect (senior)
 tags:
   - private
-trend_salary: 74500
-pct_of_trend: 110
-raise_to_95: 0
+trend_salary: 77400
+pct_of_trend: 106
 raise_to_100: 0
 ---
 > [!warning] 🔒 Private – Antony only

@@ -1,15 +1,16 @@
 ---
 type: private-hr
 person: "[[SAKA Siddhant]]"
-experience_years: 
-job_title: "Junior Electronics Engineer"
+experience_years:
+experience_coeff:
+responsibility_role: Engineer
+responsibility_coeff: 1
+adjustment_coeff: 0
+job_title: Junior Electronics Engineer
 salary_fixe: 44000
 bonus: 3000
 seniority_date:
-last_raise_date: 
-experience_coeff:
-responsibility_coeff: 1.00
-responsibility_role: "Engineer (junior)"
+last_raise_date:
 tags:
   - private
 ---
