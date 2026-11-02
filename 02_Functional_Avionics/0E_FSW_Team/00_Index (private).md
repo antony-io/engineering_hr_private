@@ -3,7 +3,6 @@ type: index
 tags:
   - private
 ---
-# 🔒 Robotics & Mechanisms – private HR values
 
 ```base
 filters:
@@ -56,4 +55,3 @@ views:
       note.raise_to_100: Sum
 ```
 
-[[00_Private/00_Index|← Private HR]]

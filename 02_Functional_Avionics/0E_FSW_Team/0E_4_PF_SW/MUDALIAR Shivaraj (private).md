@@ -12,10 +12,10 @@ responsibility_coeff: 1.2
 responsibility_role:
 tags:
   - private
-trend_salary: 52900
+trend_salary: 52700
 pct_of_trend: 96
 raise_to_95: 0
-raise_to_100: 2100
+raise_to_100: 1900
 ---
 > [!warning] 🔒 Private – Antony only
 > Confidential HR data. Do not share, export or copy into other notes.

@@ -1,0 +1,9 @@
+{
+  "id": "bsptree_office_space",
+  "name": "BSP tree - office space",
+  "version": "1.1.0",
+  "minAppVersion": "1.0.0",
+  "description": "Transforme une liste indentée (bloc `bsptree_office_space`) en diagramme SVG ; `@source: dossier` construit l'arbre en direct depuis les notes (organigramme).",
+  "author": "Stef Millet",
+  "isDesktopOnly": false
+}

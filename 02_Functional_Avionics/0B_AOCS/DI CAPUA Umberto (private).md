@@ -3,7 +3,7 @@ type: private-hr
 person: "[[DI CAPUA Umberto]]"
 experience_years: 2
 job_title:
-salary_fixe: 49100
+salary_fixe: 44100
 bonus: 2500
 seniority_date:
 last_raise_date:
@@ -12,10 +12,10 @@ responsibility_coeff: 1.4
 responsibility_role:
 tags:
   - private
-trend_salary: 55600
-pct_of_trend: 93
-raise_to_95: 1200
-raise_to_100: 4000
+trend_salary: 55400
+pct_of_trend: 84
+raise_to_95: 6100
+raise_to_100: 8800
 ---
 > [!warning] 🔒 Private – Antony only
 > Confidential HR data. Do not share, export or copy into other notes.

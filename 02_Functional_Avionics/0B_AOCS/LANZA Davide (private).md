@@ -1,9 +1,9 @@
 ---
 type: private-hr
 person: "[[LANZA Davide]]"
-experience_years: 5
+experience_years: 2
 job_title:
-salary_fixe: 51000
+salary_fixe: 48000
 bonus: 2500
 seniority_date:
 last_raise_date:
@@ -12,8 +12,8 @@ responsibility_coeff: 1
 responsibility_role:
 tags:
   - private
-trend_salary: 46500
-pct_of_trend: 115
+trend_salary: 46300
+pct_of_trend: 109
 raise_to_95: 0
 raise_to_100: 0
 ---

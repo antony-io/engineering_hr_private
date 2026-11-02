@@ -14,7 +14,7 @@ tags:
   - private
 trend_salary: 86500
 pct_of_trend: 95
-raise_to_95: 100
+raise_to_95: 0
 raise_to_100: 4400
 ---
 > [!warning] 🔒 Private – Antony only

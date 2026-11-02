@@ -1,0 +1,26 @@
+.bsptreeos-wrap { overflow-x: auto; }
+.bsptreeos-wrap svg { display: block; margin: 0 auto; max-width: none; }
+.bsptreeos-box { fill: var(--background-secondary); stroke: var(--text-muted); stroke-width: 1.5; }
+.bsptreeos-root .bsptreeos-box { fill: var(--interactive-accent); stroke: var(--interactive-accent); }
+.bsptreeos-root text { fill: var(--text-on-accent); }
+.bsptreeos-sub .bsptreeos-box { stroke: var(--interactive-accent); stroke-width: 2; }
+.bsptreeos-wrap text { fill: var(--text-normal); font-family: var(--font-interface); font-size: 14px; }
+.bsptreeos-wrap text.bsptreeos-subtitle { font-size: 11px; opacity: 0.85; }
+.bsptreeos-line { stroke: var(--text-muted); stroke-width: 1.5; fill: none; }
+.bsptreeos-error { color: var(--text-error); }
+.bsptreeos-link { cursor: pointer; }
+.bsptreeos-link:hover .bsptreeos-box { filter: brightness(1.15); stroke-width: 2.5; }
+/* status (mode @source) */
+.bsptreeos-incoming .bsptreeos-box { stroke-dasharray: 5 3; stroke-width: 2; }
+.bsptreeos-leaving { opacity: 0.55; }
+/* legend */
+.bsptreeos-wrap svg.bsptreeos-legend { margin: 0 0 10px 0; }
+.bsptreeos-wrap text.bsptreeos-legend-text { font-size: 13px; }
+/* tags (CDD / Consultant) */
+.bsptreeos-tag { fill: var(--text-muted); }
+.bsptreeos-wrap text.bsptreeos-tag-text { font-size: 10px; font-weight: 700; fill: #fff; }
+/* export button */
+.bsptreeos-toolbar { display: flex; justify-content: flex-end; margin-bottom: 4px; }
+.bsptreeos-export-btn { font-size: 12px; padding: 2px 10px; }
+/* head-count bar */
+.bsptreeos-wrap text.bsptreeos-stat-text { font-size: 13px; font-weight: 700; }

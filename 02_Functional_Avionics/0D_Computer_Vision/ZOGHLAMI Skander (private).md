@@ -12,7 +12,7 @@ responsibility_coeff: 1.2
 responsibility_role:
 tags:
   - private
-trend_salary: 49700
+trend_salary: 49500
 pct_of_trend: 101
 raise_to_95: 0
 raise_to_100: 0

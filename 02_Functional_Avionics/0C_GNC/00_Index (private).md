@@ -54,5 +54,3 @@ views:
       note.raise_to_95: Sum
       note.raise_to_100: Sum
 ```
-
-[[00_Private/00_Index|← Private HR]]
