@@ -19,6 +19,9 @@ const OUT = "Salary dashboard.html";
 const OUT_MD = "Salary.md";
 // experience coeff from experience years: [min years, coeff] (same grid as the private index)
 const AUTO_EXPERIENCE_COEFF = true;
+// Salary.md: catch-up table for one department (folder of the private notes) and minimum raise in % of the fixe
+const CATCHUP_DEPTS = [["01_System_Architecture", "System Architecture"], ["02_Functional_Avionics", "Functional Architecture"]];
+const CATCHUP_MIN = 0.05;
 const EXP_GRID = [[0, 1.00], [2, 1.10], [4, 1.20], [7, 1.30], [11, 1.40], [16, 1.50]];
 const expCoeff = y => { if (y == null) return null; let c = EXP_GRID[0][1]; for (const [m, v] of EXP_GRID) if (y >= m) c = v; return c; };
 // the coeff properties are kept on consecutive lines in each private note, in this order
@@ -166,14 +169,17 @@ module.exports = class SalaryDashboard extends Plugin {
       + `## Summary\n\n| Goal | People | Total raise (fixe / year) | % of payroll |\n|---|---|---|---|\n`
       + [["100 % of trend", b.n100, b.s100]].map(([g, n, s]) => `| ${g} | ${n} | **${e(s)}** | ${pct(s)} |`).join("\n")
       + `\n| 100 % of trend, raise capped at 10 % | ${below.length} (${nCapped} capped) | **${e(sCap)}** | ${pct(sCap)} |`
-      + `\n\nPayroll (fixe + bonus) of the ${b.rows.length} people in the model: ${e(payroll)}.\n\n`
-      + `## People below the trend (${below.length})\n\n`
-      + `| Person | Team | Role | Salary coeff | Fixe | Bonus | Fixe + bonus | Trend | % of trend | Raise → 100 % | Raise → 100 % capped 10 % | → % of trend |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n`
-      + below.map(x => `| ${link(x.d)} | ${x.d.team} | ${x.d.respRole || "—"} | ${x.d.sc.toFixed(2)} | ${e(x.d.fixe)} | ${x.d.bonus ? e(x.d.bonus) : "—"} | ${e(x.tot)} | ${e(x.ref)} | ${Math.round(100 * x.pct)} % | ${raise(x.r100, x.d)} | ${raise(capped(x), x.d)}${capped(x) < x.r100 ? " ⚠" : ""} | ${Math.round(100 * (x.tot + capped(x)) / x.ref)} % |`).join("\n")
-      + `\n| **Total** | | | | | | | | | **${e(b.s100)}** | **${e(sCap)}** | |\n`;
-    const above = b.rows.filter(x => x.r100 === 0);
-    md += `\n## At or above the trend (${above.length})\n\n| Person | Team | Fixe | Bonus | Fixe + bonus | Trend | % of trend |\n|---|---|---|---|---|---|---|\n`
-      + above.sort((x, y) => y.pct - x.pct).map(x => `| ${link(x.d)} | ${x.d.team} | ${e(x.d.fixe)} | ${x.d.bonus ? e(x.d.bonus) : "—"} | ${e(x.tot)} | ${e(x.ref)} | ${Math.round(100 * x.pct)} % |`).join("\n") + "\n";
+      + `\n\nPayroll (fixe + bonus) of the ${b.rows.length} people in the model: ${e(payroll)}.\n\n`;
+    // per department: people who need a catch-up of at least CATCHUP_MIN of their fixe to reach 100 % of the trend
+    for (const [dept, label] of CATCHUP_DEPTS) {
+      const cu = below.filter(x => x.d.folder.startsWith(dept + "/") && x.r100 / x.d.fixe >= CATCHUP_MIN)
+        .sort((p, q) => q.r100 / q.d.fixe - p.r100 / p.d.fixe);
+      md += `\n## ${label} – catch-up ≥ ${Math.round(100 * CATCHUP_MIN)} % to reach 100 % of trend (${cu.length})\n\n`;
+      if (!cu.length) { md += "Nobody.\n"; continue; }
+      md += `| Person | Team | Role | % of trend | Raise → 100 % | Raise capped at 10 % |\n|---|---|---|---|---|---|\n`
+        + cu.map(x => `| ${link(x.d)} | ${x.d.team} | ${x.d.respRole || "—"} | ${Math.round(100 * x.pct)} % | ${raise(x.r100, x.d)} | +${e(capped(x))} |`).join("\n")
+        + `\n| **Total** | | | | **+${e(cu.reduce((t, x) => t + x.r100, 0))}** | **+${e(cu.reduce((t, x) => t + capped(x), 0))}** |\n`;
+    }
     const missing = data.filter(d => d.status !== "open" && d.contract !== "Intern" && (d.fixe == null || !d.sc));
     if (missing.length) md += `\n## Not in the model (${missing.length})\nMissing salary, experience coeff or responsibility coeff: ${missing.map(link).join(", ")}.\n`;
     return md;
